@@ -1,0 +1,363 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "railcargo"
+	group: "6EE4D68DCB811587"
+	icon: {
+		id: "create:track_station"
+	}
+	id: "0DF0503BDF5D51FC"
+	images: [ ]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5D8A0B854DE36AF9"]
+			icon: {
+				id: "minecraft:torch"
+			}
+			id: "064B51CBFDF34F83"
+			rewards: [{
+				id: "07AA857664205074"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "1ADA70ACB9631B36"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["064B51CBFDF34F83"]
+			icon: {
+				id: "create:track"
+			}
+			id: "22B8150487690673"
+			rewards: [
+				{
+					id: "57D72EF94CE5C51F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "316B57876DECFF1D"
+					table_id: 5170224906693217172L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				consume_items: false
+				count: 8L
+				id: "1B2D8826F7C368DB"
+				item: { count: 1, id: "create:track" }
+				type: "item"
+			}]
+			x: 2.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["22B8150487690673"]
+			icon: {
+				id: "create:track_station"
+			}
+			id: "5ADC09FB949057FB"
+			rewards: [{
+				id: "63B0626A642B52E1"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "7FA797A60A109130"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5ADC09FB949057FB"]
+			icon: {
+				id: "create:controls"
+			}
+			id: "3939635AB735C052"
+			rewards: [{
+				id: "33BFA15340D4B76A"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "24768393B421BDB9"
+				type: "checkmark"
+			}]
+			x: 8.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3939635AB735C052"]
+			icon: {
+				id: "create:wrench"
+			}
+			id: "1FA420AA3093FE3F"
+			rewards: [{
+				id: "166935F4F386BE5D"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "1F81A0CC42F9B70F"
+				type: "checkmark"
+			}]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1FA420AA3093FE3F"]
+			icon: {
+				id: "minecraft:barrel"
+			}
+			id: "615B4C79C0733CFE"
+			rewards: [{
+				id: "1562D3D5DA923D21"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "2F52FBD4855E33F3"
+				type: "checkmark"
+			}]
+			x: 13.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["615B4C79C0733CFE"]
+			icon: {
+				id: "create:schedule"
+			}
+			id: "677F78FF00C0A165"
+			rewards: [{
+				id: "1EEA5A1A87E37DF5"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "3594095F3371FBAA"
+				type: "checkmark"
+			}]
+			x: 16.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1FA420AA3093FE3F"]
+			icon: {
+				id: "create:track_signal"
+			}
+			id: "2BBD928707F96F0F"
+			optional: true
+			rewards: [{
+				id: "4B2F8F34FC76B108"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "53DD7E442ED4E672"
+				type: "checkmark"
+			}]
+			x: 13.75d
+			y: 3.0d
+		}
+		{
+			dependencies: ["677F78FF00C0A165"]
+			icon: {
+				id: "create:railway_casing"
+			}
+			id: "6E2A74F216C0156D"
+			rewards: [
+				{
+					id: "60A1B96D4C317103"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "438BF5C0C4870BB5"
+					table_id: 3564254181360378705L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "0496A58257F22D1A"
+				type: "checkmark"
+			}]
+			x: 19.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["22B8150487690673"]
+			icon: {
+				id: "create:track_station"
+			}
+			id: "7EE0C99436D4FF55"
+			optional: true
+			rewards: [
+				{
+					id: "22464D73EA2D3C16"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5A95DF407AC9E18B"
+					table_id: 5170224906693217172L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				consume_items: false
+				id: "2A363F1FB8381DF1"
+				item: { count: 1, id: "create:track_station" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5ADC09FB949057FB"]
+			icon: {
+				id: "create:controls"
+			}
+			id: "51820FEF3228AC7C"
+			optional: true
+			rewards: [
+				{
+					id: "3866A3D3FBFF927C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "42DE3D70A2CDE61F"
+					table_id: 5170224906693217172L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				consume_items: false
+				id: "48CA45AD5BAFA109"
+				item: { count: 1, id: "create:controls" }
+				type: "item"
+			}]
+			x: 8.25d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5ADC09FB949057FB"]
+			icon: {
+				id: "create:item_vault"
+			}
+			id: "5BC7B2048B10AC5F"
+			optional: true
+			rewards: [
+				{
+					id: "74EA381B9655E03D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2B2E7EAD32DCA71B"
+					table_id: 5170224906693217172L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				consume_items: false
+				id: "7E389895B20F844F"
+				item: { count: 1, id: "create:item_vault" }
+				type: "item"
+			}]
+			x: 8.25d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1FA420AA3093FE3F"]
+			icon: {
+				id: "create:schedule"
+			}
+			id: "7D2AEDCDC2A601CC"
+			optional: true
+			rewards: [
+				{
+					id: "71671CE1DB740ACA"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1C590F29651F7FF3"
+					table_id: 5170224906693217172L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				consume_items: false
+				id: "234384E80BDED111"
+				item: { count: 1, id: "create:schedule" }
+				type: "item"
+			}]
+			x: 13.75d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1FA420AA3093FE3F"]
+			icon: {
+				id: "create:track_signal"
+			}
+			id: "1D19A8B624F320F8"
+			optional: true
+			rewards: [
+				{
+					id: "4E5B908B6FFBA730"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3E8B15F5CF99E1BC"
+					table_id: 5170224906693217172L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				consume_items: false
+				id: "4C6DF0D55AF7ADDA"
+				item: { count: 1, id: "create:track_signal" }
+				type: "item"
+			}]
+			x: 13.75d
+			y: 6.0d
+		}
+	]
+}

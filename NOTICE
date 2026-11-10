@@ -1,0 +1,21 @@
+Dane Lord’s Create Aero
+
+Pack-specific original quest writing, layouts and Create Aero artwork were
+prepared for Dane Lord. All rights in original contributions are reserved
+unless the owner grants another licence. No blanket open-source licence is
+granted by merely publishing this repository.
+
+This pack was customized from All of Create Aeronautics. Inherited configs,
+mod names, sample scripts, translations and assets remain the work of their
+respective authors. Existing copyright notices must be preserved.
+
+Create, Create Aeronautics, NeoForge, Minecraft, FTB Quests, FancyMenu,
+Complementary Shaders, Euphoria Patches, upstream compatibility datapacks and
+all other third-party components retain their own licences and trademarks.
+This repository does not relicense them and does not redistribute dependency
+mod JARs. External payloads are pinned to the public CurseForge baseline,
+not copied into Git. Their existing archive contents/notices remain intact
+when a local build is assembled.
+
+The two companion Create Aero repositories have independent licence terms;
+those terms do not automatically apply to the whole modpack.

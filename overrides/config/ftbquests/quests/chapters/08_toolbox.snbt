@@ -1,0 +1,361 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "08_toolbox"
+	group: "6EE4D68DCB811587"
+	icon: {
+		id: "create:wrench"
+	}
+	id: "774767DDCCA9960C"
+	images: [ ]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5D8A0B854DE36AF9"]
+			icon: {
+				id: "minecraft:book"
+			}
+			id: "700E28EC615745CB"
+			rewards: [{
+				id: "2FB308A6291A22E3"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "0E47C1A453EC5C84"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["700E28EC615745CB"]
+			icon: {
+				id: "create_connected:parallel_gearbox"
+			}
+			id: "449FC552EFEA1E37"
+			rewards: [{
+				id: "01E40C84C21C6FE8"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "005578705946F0E6"
+				type: "checkmark"
+			}]
+			x: 2.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["449FC552EFEA1E37"]
+			icon: {
+				id: "create_optical:optical_source"
+			}
+			id: "0D289FD1D0339EB4"
+			rewards: [{
+				id: "7961467B7670CDBE"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "2B78EE69B560F2B4"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0D289FD1D0339EB4"]
+			icon: {
+				id: "create:packager"
+			}
+			id: "0BCC10678DF4843A"
+			rewards: [
+				{
+					id: "5266766CE94839ED"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6480E94EFE3D118F"
+					table_id: 5170224906693217172L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				consume_items: false
+				id: "0AE50828302BA179"
+				item: { count: 1, id: "create:packager" }
+				type: "item"
+			}]
+			x: 8.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0BCC10678DF4843A"]
+			icon: {
+				id: "minecraft:chest_minecart"
+			}
+			id: "67B53B5CFF52D689"
+			rewards: [{
+				id: "319BC9FA80B688EA"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "05E063A06A93BBE8"
+				type: "checkmark"
+			}]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["67B53B5CFF52D689"]
+			icon: {
+				id: "minecraft:copper_ingot"
+			}
+			id: "70C865B17E29786D"
+			rewards: [{
+				id: "5BD7B7B7B1F8FC8D"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "2612DC2081CE6AEB"
+				type: "checkmark"
+			}]
+			x: 13.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["70C865B17E29786D"]
+			icon: {
+				id: "create:experience_nugget"
+			}
+			id: "0D087A29B9593524"
+			rewards: [{
+				id: "1E36576D907D1CFF"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "1953ED4C5E4C00D1"
+				type: "checkmark"
+			}]
+			x: 16.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0D087A29B9593524"]
+			icon: {
+				id: "minecraft:rail"
+			}
+			id: "4ABC5AF6AA0D2C48"
+			rewards: [{
+				id: "51076189EA0E307A"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "51390559CDDA9A99"
+				type: "checkmark"
+			}]
+			x: 19.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4ABC5AF6AA0D2C48"]
+			icon: {
+				id: "minecraft:redstone"
+			}
+			id: "5B5A1BF3DA1104F8"
+			rewards: [{
+				id: "193DEB21A6A5A496"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "338C887C8FCAE14E"
+				type: "checkmark"
+			}]
+			x: 22.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5B5A1BF3DA1104F8"]
+			icon: {
+				id: "minecraft:emerald"
+			}
+			id: "4CC22395BAA70771"
+			rewards: [{
+				id: "75F449E68443AA4F"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "06FA793846D92C9B"
+				type: "checkmark"
+			}]
+			x: 24.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4CC22395BAA70771"]
+			icon: {
+				id: "minecraft:writable_book"
+			}
+			id: "4CC367D34393D7DB"
+			rewards: [{
+				id: "6B1061AA96B98DE1"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "653C0ED577D326FA"
+				type: "checkmark"
+			}]
+			x: 27.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4CC367D34393D7DB"]
+			icon: {
+				id: "create:wrench"
+			}
+			id: "7E1F2E6287757555"
+			rewards: [
+				{
+					id: "1CFC3F4529C386DE"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "1C4B527F7D62EB9C"
+					table_id: 3564254181360378705L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "667601ACF3021036"
+				type: "checkmark"
+			}]
+			x: 30.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["700E28EC615745CB"]
+			icon: {
+				id: "create:redstone_link"
+			}
+			id: "5404070D6166547E"
+			optional: true
+			rewards: [
+				{
+					id: "2E2B9691D87EBF65"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "36425EE3321B04FA"
+					table_id: 5170224906693217172L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				consume_items: false
+				id: "76C44EC3D8AE2DF2"
+				item: { count: 1, id: "create:redstone_link" }
+				type: "item"
+			}]
+			x: 2.75d
+			y: 3.0d
+		}
+		{
+			dependencies: ["700E28EC615745CB"]
+			icon: {
+				id: "create:display_link"
+			}
+			id: "302546D05570421E"
+			optional: true
+			rewards: [
+				{
+					id: "087FF5C001EAF5C2"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "78FB386898AFB03E"
+					table_id: 5170224906693217172L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				consume_items: false
+				id: "454B82304C8E7326"
+				item: { count: 1, id: "create:display_link" }
+				type: "item"
+			}]
+			x: 2.75d
+			y: -3.0d
+		}
+		{
+			dependencies: ["700E28EC615745CB"]
+			icon: {
+				id: "createaddition:rolling_mill"
+			}
+			id: "6D9A65FB91CA352C"
+			optional: true
+			rewards: [
+				{
+					id: "70C0832056A2C860"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "41D4E46A495A9335"
+					table_id: 5170224906693217172L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				consume_items: false
+				id: "7493688C7CF390D0"
+				item: { count: 1, id: "createaddition:rolling_mill" }
+				type: "item"
+			}]
+			x: 2.75d
+			y: 6.0d
+		}
+	]
+}

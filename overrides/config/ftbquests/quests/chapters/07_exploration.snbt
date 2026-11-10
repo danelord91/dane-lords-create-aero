@@ -1,0 +1,221 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "07_exploration"
+	group: "0A670F3102D204D1"
+	icon: {
+		id: "minecraft:compass"
+	}
+	id: "0D49C74C68B7B0F4"
+	images: [ ]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7A4E729DD8C21030"]
+			icon: {
+				id: "minecraft:map"
+			}
+			id: "46FD27177E5CC548"
+			rewards: [{
+				id: "09731C6CF073E888"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "2FFE435F94386118"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["46FD27177E5CC548"]
+			icon: {
+				id: "minecraft:torch"
+			}
+			id: "5C3E1CBEDE9D177E"
+			rewards: [{
+				id: "3BFDFAB32C81BD69"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "5159E749F5555ECB"
+				type: "checkmark"
+			}]
+			x: 2.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5C3E1CBEDE9D177E"]
+			icon: {
+				id: "minecraft:emerald"
+			}
+			id: "7A3A6D49F52492DD"
+			rewards: [{
+				id: "71B47F26A9FF0370"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "69287610FA80ED1D"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7A3A6D49F52492DD"]
+			icon: {
+				id: "minecraft:stone_bricks"
+			}
+			id: "342A97666CB914A1"
+			rewards: [{
+				id: "7BDE88FC0FCA49D8"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "2EAC5F70ABB7569D"
+				type: "checkmark"
+			}]
+			x: 8.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["342A97666CB914A1"]
+			icon: {
+				id: "minecraft:compass"
+			}
+			id: "341AAEB1FB1AE4DB"
+			rewards: [{
+				id: "2372F4223723E8D2"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "4F7A79BFF3170D92"
+				type: "checkmark"
+			}]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["341AAEB1FB1AE4DB"]
+			icon: {
+				id: "minecraft:spyglass"
+			}
+			id: "7D871CA77AA3EF04"
+			rewards: [{
+				id: "5BA289CD86E7B04B"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "479A76675CB84B62"
+				type: "checkmark"
+			}]
+			x: 13.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7D871CA77AA3EF04"]
+			icon: {
+				id: "minecraft:water_bucket"
+			}
+			id: "64F43AC2D4EDD517"
+			rewards: [{
+				id: "2F3CD666F9E918C0"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "1BC7D956974608FA"
+				type: "checkmark"
+			}]
+			x: 16.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["64F43AC2D4EDD517"]
+			icon: {
+				id: "minecraft:filled_map"
+			}
+			id: "3492D4685B33166C"
+			rewards: [
+				{
+					id: "0966F264E912CD74"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 8
+					id: "004EFBE8EA234020"
+					item: {
+						count: 1
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+				{
+					id: "6D962897953AF03A"
+					table_id: 3564254181360378705L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "7B84EDE7EE19C68D"
+				type: "checkmark"
+			}]
+			x: 19.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["46FD27177E5CC548"]
+			icon: {
+				id: "minecraft:compass"
+			}
+			id: "2129C45D443C8440"
+			optional: true
+			rewards: [
+				{
+					id: "4DC34F40D32A325F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "728050C4815580E1"
+					table_id: 2844632658890425024L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				consume_items: false
+				id: "13BD4E733BBC76A7"
+				item: { count: 1, id: "minecraft:compass" }
+				type: "item"
+			}]
+			x: 2.75d
+			y: 3.0d
+		}
+	]
+}

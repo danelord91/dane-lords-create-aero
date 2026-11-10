@@ -1,0 +1,7 @@
+# Preserve published config/manifest bytes on every platform.
+/overrides/** -text
+/resourcepack-src/** -text
+/manifest.json -text
+/modlist.html -text
+*.png binary
+*.icns binary

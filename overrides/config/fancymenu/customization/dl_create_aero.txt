@@ -1,0 +1,240 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = title_screen
+  render_custom_elements_behind_vanilla = false
+  is_enabled = true
+  randommode = false
+  randomgroup = 1
+  randomonlyfirsttime = false
+  layout_index = 0
+}
+
+menu_background {
+  instance_identifier = 5fd23eb4-958a-4d20-915d-81416f472ac5
+  background_type = image
+  show_background = true
+  image_path = [source:local]/config/fancymenu/assets/dl_create_aero/menu_background.png
+  slide = false
+  repeat_texture = false
+  parallax = false
+  restart_animated_on_menu_load = false
+}
+
+menu_background {
+  instance_identifier = 645f240e-2600-4a67-aa17-47f7e0d7a493
+  background_type = panorama
+  show_background = false
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = true
+}
+
+scroll_list_customization {
+  show_screen_background_overlay_on_custom_background = false
+  apply_vanilla_background_blur = false
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = mc_titlescreen_singleplayer_button
+  anchor_point = top-left
+  x = 44
+  y = 182
+  width = 174
+  height = 22
+  label = 
+  navigatable = true
+  is_hidden = false
+  backgroundnormal = [source:local]/config/fancymenu/assets/dl_create_aero/singleplayer.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/dl_create_aero/singleplayer_hover.png
+  transparent_background = false
+  nine_slice_custom_background = false
+  auto_sizing = true
+  auto_sizing_base_screen_width = 1920
+  auto_sizing_base_screen_height = 1080
+  auto_sizing_base_gui_scale = 3
+  auto_sizing_base_gui_width = 640
+  auto_sizing_base_gui_height = 360
+  stay_on_screen = true
+  appearance_delay = no_delay
+  disappearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  base_opacity = 1.0
+  automated_button_clicks = 0
+  restartbackgroundanimations = true
+  button_element_executable_block_identifier = d0baff42-af34-4270-a18b-7908657f604e
+  [executable_block:d0baff42-af34-4270-a18b-7908657f604e][type:generic] = [executables:]
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = mc_titlescreen_multiplayer_button
+  anchor_point = top-left
+  x = 44
+  y = 208
+  width = 174
+  height = 22
+  label = 
+  navigatable = true
+  is_hidden = false
+  backgroundnormal = [source:local]/config/fancymenu/assets/dl_create_aero/multiplayer.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/dl_create_aero/multiplayer_hover.png
+  transparent_background = false
+  nine_slice_custom_background = false
+  auto_sizing = true
+  auto_sizing_base_screen_width = 1920
+  auto_sizing_base_screen_height = 1080
+  auto_sizing_base_gui_scale = 3
+  auto_sizing_base_gui_width = 640
+  auto_sizing_base_gui_height = 360
+  stay_on_screen = true
+  appearance_delay = no_delay
+  disappearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  base_opacity = 1.0
+  automated_button_clicks = 0
+  restartbackgroundanimations = true
+  button_element_executable_block_identifier = 9a78a62b-eafe-4f24-893e-cba11939e283
+  [executable_block:9a78a62b-eafe-4f24-893e-cba11939e283][type:generic] = [executables:]
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = mc_titlescreen_options_button
+  anchor_point = top-left
+  x = 44
+  y = 233
+  width = 174
+  height = 22
+  label = 
+  navigatable = true
+  is_hidden = false
+  backgroundnormal = [source:local]/config/fancymenu/assets/dl_create_aero/options.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/dl_create_aero/options_hover.png
+  transparent_background = false
+  nine_slice_custom_background = false
+  auto_sizing = true
+  auto_sizing_base_screen_width = 1920
+  auto_sizing_base_screen_height = 1080
+  auto_sizing_base_gui_scale = 3
+  auto_sizing_base_gui_width = 640
+  auto_sizing_base_gui_height = 360
+  stay_on_screen = true
+  appearance_delay = no_delay
+  disappearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  base_opacity = 1.0
+  automated_button_clicks = 0
+  restartbackgroundanimations = true
+  button_element_executable_block_identifier = 8ed6f2af-fa84-46cc-a709-634a45fed9d6
+  [executable_block:8ed6f2af-fa84-46cc-a709-634a45fed9d6][type:generic] = [executables:]
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = mc_titlescreen_quit_button
+  anchor_point = top-left
+  x = 44
+  y = 259
+  width = 174
+  height = 22
+  label = 
+  navigatable = true
+  is_hidden = false
+  backgroundnormal = [source:local]/config/fancymenu/assets/dl_create_aero/quit.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/dl_create_aero/quit_hover.png
+  transparent_background = false
+  nine_slice_custom_background = false
+  auto_sizing = true
+  auto_sizing_base_screen_width = 1920
+  auto_sizing_base_screen_height = 1080
+  auto_sizing_base_gui_scale = 3
+  auto_sizing_base_gui_width = 640
+  auto_sizing_base_gui_height = 360
+  stay_on_screen = true
+  appearance_delay = no_delay
+  disappearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  base_opacity = 1.0
+  automated_button_clicks = 0
+  restartbackgroundanimations = true
+  button_element_executable_block_identifier = 39b17e1e-d99b-4641-aedd-86d931947db0
+  [executable_block:39b17e1e-d99b-4641-aedd-86d931947db0][type:generic] = [executables:]
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = minecraft_logo_widget
+  is_hidden = true
+  automated_button_clicks = 0
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = minecraft_splash_widget
+  is_hidden = true
+  automated_button_clicks = 0
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = mc_titlescreen_realms_button
+  is_hidden = true
+  automated_button_clicks = 0
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = minecraft_realms_notification_icons_widget
+  is_hidden = true
+  automated_button_clicks = 0
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = forge_titlescreen_mods_button
+  is_hidden = true
+  automated_button_clicks = 0
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = 604388
+  is_hidden = true
+  automated_button_clicks = 0
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = 376354
+  is_hidden = true
+  automated_button_clicks = 0
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = 376306
+  is_hidden = true
+  automated_button_clicks = 0
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = 376388
+  is_hidden = true
+  automated_button_clicks = 0
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = 604330
+  is_hidden = true
+  automated_button_clicks = 0
+}

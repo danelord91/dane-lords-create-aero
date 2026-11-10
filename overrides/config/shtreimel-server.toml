@@ -1,0 +1,442 @@
+#Shtreimel . server-only operator add-on.
+[shtreimel]
+
+	#Observability
+	[shtreimel.observability]
+		#Maximum lifecycle log lines (add/remove) per dimension per minute.
+		# Default: 60
+		# Range: 0 ~ 6000
+		logRatePerMinute = 60
+		#Emit sub-level add/remove log lines at INFO; otherwise DEBUG.
+		logLifecycleAtInfo = true
+		#Maximum exact add/remove events retained in memory for /shtreimel history and crash reports.
+		# Default: 512
+		# Range: 32 ~ 100000
+		historySize = 512
+
+	#Heuristic ranking soft-caps. A signal at or above its cap normalizes to 1.0.
+	[shtreimel.ranking]
+
+		[shtreimel.ranking.weights]
+			# Default: 1.0
+			# Range: 0.0 ~ 100.0
+			volume = 1.0
+			# Default: 0.5
+			# Range: 0.0 ~ 100.0
+			footprint = 0.5
+			# Default: 1.0
+			# Range: 0.0 ~ 100.0
+			loadedChunks = 1.0
+			# Default: 1.5
+			# Range: 0.0 ~ 100.0
+			blockEntities = 1.5
+			# Default: 0.75
+			# Range: 0.0 ~ 100.0
+			trackingPlayers = 0.75
+			# Default: 0.5
+			# Range: 0.0 ~ 100.0
+			linearSpeed = 0.5
+			# Default: 0.5
+			# Range: 0.0 ~ 100.0
+			angularSpeed = 0.5
+			# Default: 1.0
+			# Range: 0.0 ~ 100.0
+			entitiesInBoundingBox = 1.0
+			# Default: 0.5
+			# Range: 0.0 ~ 100.0
+			reactionWheels = 0.5
+			# Default: 0.5
+			# Range: 0.0 ~ 100.0
+			forceGroups = 0.5
+			# Default: 0.5
+			# Range: 0.0 ~ 100.0
+			networkDrift = 0.5
+			#Disabled by default because traversing connected actors is more expensive.
+			# Default: 0.0
+			# Range: 0.0 ~ 100.0
+			connectedSubLevels = 0.0
+			#Disabled by default because dependency traversal can query intersections.
+			# Default: 0.0
+			# Range: 0.0 ~ 100.0
+			loadingDependencies = 0.0
+			# Default: 0.0
+			# Range: 0.0 ~ 100.0
+			forceLoadTickets = 0.0
+
+		[shtreimel.ranking.softCaps]
+			# Default: 262144.0
+			# Range: 1.0 ~ 1.0E12
+			volume = 262144.0
+			# Default: 4096.0
+			# Range: 1.0 ~ 1.0E9
+			footprint = 4096.0
+			# Default: 64
+			# Range: 1 ~ 100000
+			loadedChunks = 64
+			# Default: 64
+			# Range: 1 ~ 100000
+			blockEntities = 64
+			# Default: 8
+			# Range: 1 ~ 1000
+			trackingPlayers = 8
+			# Default: 20.0
+			# Range: 0.1 ~ 1000.0
+			linearSpeed = 20.0
+			# Default: 6.28
+			# Range: 0.01 ~ 1000.0
+			angularSpeed = 6.28
+			# Default: 32
+			# Range: 1 ~ 100000
+			entitiesInBoundingBox = 32
+			# Default: 32
+			# Range: 1 ~ 100000
+			reactionWheels = 32
+			# Default: 16
+			# Range: 1 ~ 100000
+			forceGroups = 16
+			# Default: 10.0
+			# Range: 0.01 ~ 1.0E9
+			networkDrift = 10.0
+			# Default: 8
+			# Range: 1 ~ 100000
+			connectedSubLevels = 8
+			# Default: 8
+			# Range: 1 ~ 100000
+			loadingDependencies = 8
+			# Default: 4
+			# Range: 1 ~ 100000
+			forceLoadTickets = 4
+
+	#Snapshot writer. 0 disables. Snapshots land in <world>/shtreimel/snapshots/.
+	[shtreimel.snapshots]
+		# Default: 0
+		# Range: 0 ~ 86400
+		intervalSeconds = 0
+		# Default: 48
+		# Range: 1 ~ 100000
+		keepCount = 48
+		#Maximum bodies captured per dimension. Separate from the smaller crash-report limit.
+		# Default: 4096
+		# Range: 1 ~ 100000
+		subLevelLimit = 4096
+		#Format(s) to write when a snapshot is dumped. JSON|CSV|BOTH.
+		#Allowed Values: JSON, CSV, BOTH
+		format = "JSON"
+
+	#Audit logging
+	[shtreimel.audit]
+		#Append destructive audit lines to <world>/shtreimel/audit.log in addition to the server log.
+		fileEnabled = true
+		#Soft size cap for the audit log file before rotation.
+		# Default: 10485760
+		# Range: > 4096
+		fileMaxBytes = 10485760
+
+	#Destructive command safeguards
+	[shtreimel.delete]
+		#If true, /shtreimel delete subcommands require an explicit --confirm flag.
+		requireConfirm = true
+		#If true, deleting a named sub-level requires re-typing the name as a confirm token.
+		requireNameConfirm = false
+
+	#Lag autotuner. Records per-dimension EWMA samples in a ring buffer. 
+	#Run /shtreimel lag autotune to print recommended thresholds based on observed history.
+	[shtreimel.lag]
+		#Master switch for the heat detector.
+		enabled = true
+		#Per-dimension physics-slice EWMA above which the detector starts naming suspects, in milliseconds. 
+		#Default 5.0 ms is well below a 50 ms tick budget; tune lower if you want earlier warnings.
+		# Default: 5.0
+		# Range: 0.1 ~ 50.0
+		ewmaThresholdMs = 5.0
+		#Minimum seconds between heat scans. The detector returns immediately if this hasn't elapsed 
+		#since the last scan, so the per-tick cost on a healthy server is one config read.
+		# Default: 30
+		# Range: 1 ~ 3600
+		scanCooldownSeconds = 30
+		#Minimum seconds before the same sub-level can be named again. Prevents log spam.
+		# Default: 300
+		# Range: 10 ~ 86400
+		repeatCooldownSeconds = 300
+		#How many highest-ranked suspects to include in each hot-dimension incident.
+		# Default: 1
+		# Range: 1 ~ 20
+		suspectCount = 1
+		#Required consecutive hot scans before reporting. 1 preserves legacy behavior.
+		# Default: 1
+		# Range: 1 ~ 20
+		consecutiveHotScans = 1
+		#Queue a full diagnostic snapshot when a hot incident is reported.
+		captureIncidentSnapshot = false
+		#Global cooldown between automatic incident snapshots.
+		# Default: 300
+		# Range: 10 ~ 86400
+		incidentSnapshotCooldownSeconds = 300
+
+		[shtreimel.lag.autotune]
+			#Master switch for the autotuner sample recorder. Has near-zero cost when off.
+			recordSamples = true
+			#Seconds between recorded samples. Lower means a denser history at higher memory cost.
+			# Default: 60
+			# Range: 5 ~ 3600
+			sampleIntervalSeconds = 60
+			#How many minutes of history to retain in the ring buffer.
+			# Default: 1440
+			# Range: 60 ~ 10080
+			bufferMinutes = 1440
+
+	#Optional mixins. Each is off by default; defaultRequire=0 so a Sable refactor 
+	#silently no-ops rather than breaking the server.
+	[shtreimel.mixins]
+		#Audit Sable's NaN-recovery attempts (SubLevelPhysicsSystem#recoverSubLevel). 
+		#Useful forensics when contraptions silently get removed.
+		nanRecoveryAuditEnabled = false
+		#Capture one caller stack frame at the exact SubLevelObserver removal callback. 
+		#This is more reliable than a removeSubLevel mixin but retains the legacy config key.
+		removalReasonContextEnabled = false
+		#Capture the contraption being processed inside Create's ContraptionCollider.collideEntities. 
+		#When the server crashes inside that path (e.g. propeller-collision NPEs from Aeronautics), 
+		#the Shtreimel crash header prints the contraption's coordinates and entity id. Requires 
+		#Create at runtime; safe to leave on for servers without Create (the mixin no-ops).
+		createContraptionContextEnabled = true
+
+	#Per-body freeze: pin a sub-level's pose without dimension-wide pause. 
+	#Cheap unless many sub-levels are frozen simultaneously.
+	[shtreimel.freeze]
+		#Max simultaneously-frozen sub-levels per dimension. Bounded so a runaway 
+		#freeze script cannot induce per-tick work spikes.
+		# Default: 16
+		# Range: 1 ~ 1024
+		maxConcurrent = 16
+		#Persist the frozen-set across server restarts to <world>/shtreimel/state/frozen.json.
+		persist = true
+		#Freeze a newly split child at its own pose when its parent is frozen.
+		inheritOnSplit = true
+
+	#Sub-level occupancy history. Samples which players are standing on or riding 
+	#which sub-levels, so /shtreimel who can answer who was last aboard a body and 
+	#which bodies a player has been on. Costs one lookup per online player per sample.
+	[shtreimel.occupancy]
+		#Master switch. When off, nothing is sampled and the who history subcommands 
+		#report that tracking is disabled.
+		enabled = true
+		#Ticks between samples. Lower catches shorter hops at proportionally more cost; 
+		#a boarding shorter than one interval may be missed entirely.
+		# Default: 10
+		# Range: 1 ~ 200
+		sampleIntervalTicks = 10
+		#Retained visits per player, newest kept. Bounds /shtreimel who player.
+		# Default: 16
+		# Range: 1 ~ 512
+		maxVisitsPerPlayer = 16
+		#Retained distinct players per sub-level, newest kept. Only each player's most 
+		#recent visit is held, so one player boarding repeatedly cannot evict the others.
+		# Default: 16
+		# Range: 1 ~ 512
+		maxPlayersPerSubLevel = 16
+		#Total players with retained history before the least recently seen is dropped.
+		# Default: 500
+		# Range: 1 ~ 100000
+		maxTrackedPlayers = 500
+		#Total sub-levels with retained history before the least recently used is dropped.
+		# Default: 1000
+		# Range: 1 ~ 100000
+		maxTrackedSubLevels = 1000
+		#Persist history to <world>/shtreimel/state/occupancy.json so 'who was last on 
+		#this ship' survives a restart.
+		persist = true
+		#Minimum seconds between background writes. A final write always happens on stop.
+		# Default: 60
+		# Range: 5 ~ 3600
+		persistIntervalSeconds = 60
+		#Rows shown by /shtreimel who recent and /shtreimel who player without a limit.
+		# Default: 10
+		# Range: 1 ~ 512
+		queryDefaultLimit = 10
+
+	#Watch command
+	[shtreimel.watch]
+		# Default: 30
+		# Range: 1 ~ 3600
+		defaultDurationSeconds = 30
+		# Default: 600
+		# Range: 1 ~ 86400
+		maxDurationSeconds = 600
+		#Minimum ticks between events delivered to a watcher. Prevents spam from a velocity-spinning sub-level.
+		# Default: 2
+		# Range: 1 ~ 200
+		minTicksBetweenEvents = 2
+
+	#Opt-in queued-force profiler. Tracking is disabled unless an operator starts a session.
+	[shtreimel.forceProfile]
+		# Default: 10
+		# Range: 1 ~ 600
+		defaultDurationSeconds = 10
+		# Default: 60
+		# Range: 1 ~ 3600
+		maxDurationSeconds = 60
+		#Maximum sub-levels whose individual point forces may be tracked at once.
+		# Default: 4
+		# Range: 1 ~ 64
+		maxConcurrent = 4
+		#How long completed summaries remain available to /shtreimel forces show.
+		# Default: 300
+		# Range: 10 ~ 86400
+		resultRetentionSeconds = 300
+
+	#Audit query commands
+	[shtreimel.auditQuery]
+		# Default: 50
+		# Range: 1 ~ 10000
+		defaultLimit = 50
+		# Default: 1000
+		# Range: 1 ~ 100000
+		maxLimit = 1000
+		#Maximum bytes scanned per audit file by a filtered query.
+		# Default: 33554432
+		# Range: > 4096
+		maxScanBytes = 33554432
+
+	#Sub-level archive (save/restore the NBT of a single plot)
+	[shtreimel.archive]
+		#Max archives to retain per sub-level UUID before pruning oldest.
+		# Default: 16
+		# Range: 1 ~ 4096
+		maxPerUuid = 16
+		#Hard cap across all sub-levels.
+		# Default: 1024
+		# Range: 1 ~ 100000
+		maxTotal = 1024
+		#Maximum compressed plot.nbt size accepted for verify/restore.
+		# Default: 268435456
+		# Range: > 1024
+		maxCompressedBytes = 268435456
+
+	#Crash report enrichment
+	[shtreimel.crash]
+		#Register a CrashReportCallables header that lists loaded sub-levels and physics EWMA.
+		headerEnabled = true
+		#Apply the optional fallback mixin into Sable's SubLevelPhysicsSystem.tick crash path. 
+		#Off by default; fragile against upstream Sable refactors.
+		mixinEnabled = false
+		#Maximum sub-levels enumerated in crash output per dimension.
+		# Default: 64
+		# Range: 1 ~ 4096
+		subLevelLimit = 64
+
+	#Claim guard. Stops ships (Sable sub-levels), Create contraptions, and machines from 
+	#changing claims their owner is not trusted in. Works with FTB Chunks, Open Parties and 
+	#Claims, and Flan when installed; none of them is required. A claim mod that throws is 
+	#disabled for the session and the guard fails open for it, so gameplay never bricks.
+	[shtreimel.guard]
+		#Master switch for every claim guard below.
+		enabled = true
+		#Assembly (physics assembler, honey glue, swivel bearings, staffs, Create contraptions) 
+		#cannot take blocks out of, and disassembly cannot place blocks into, claims the actor 
+		#is not trusted in.
+		assemblyProtection = true
+		#Moving Create contraptions (bearings, pistons, gantries, carts, trains) cannot change 
+		#claims their origin is not trusted in. Requires Create.
+		contraptionProtection = true
+		#A machine in the world cannot change blocks in a different claim than its own unless 
+		#that claim trusts the machine's claim owner (stops border drills, deployers, miners).
+		crossClaimBlockEntities = true
+		#The same rule for inventories: hoppers, funnels, chutes, and arms cannot pull from or 
+		#push into containers in a claim that does not trust them.
+		crossClaimInventories = true
+		#Ship and contraption machines cannot hurt non-hostile entities, or seat them, inside 
+		#claims they are not trusted in.
+		entityProtection = true
+
+		[shtreimel.guard.providers]
+			ftbchunks = true
+			openpartiesandclaims = true
+			flan = true
+
+		[shtreimel.guard.ships]
+			#Ship-mounted machines (drills, saws, harvesters, deployers, funnels, arms, pipes, 
+			#addon miners) cannot change or empty claims their ship is not trusted in. Ships may 
+			#still fly through.
+			protectClaimsFromShips = true
+			#Players cannot break, place, or use blocks of a ship parked inside a claim they are 
+			#not trusted in, unless they own that ship.
+			protectShipsInClaims = true
+			#A player standing on or riding a ship lends it their claim trust.
+			occupantsGrantAccess = true
+			#The first player to board a ship with no recorded owner (ships built before 0.6.0) 
+			#becomes its owner, but only in wilderness or in a claim that player is trusted in.
+			adoptOwnerless = true
+			#Ship impacts cannot break fragile blocks, prime TNT, ring bells, or empty beehives 
+			#inside claims the ship is not trusted in.
+			impactProtection = true
+			#Explosions cannot break blocks of ships parked in explosion-protected claims, and 
+			#ship-launched TNT/projectiles cannot blow up claims the ship is not trusted in.
+			explosionProtection = true
+
+		[shtreimel.guard.tools]
+			#Claim checks for the Creative Physics Staff, honey/merging glue, springs, the 
+			#physics assembler lever, ship punching, and the Sable gizmo.
+			enabled = true
+			#Server-side reach limit for Physics Staff drags and locks, in blocks. 0 disables. 
+			#The client already limits itself to 128; this stops spoofed packets.
+			# Default: 128
+			# Range: 0 ~ 4096
+			maxStaffRange = 128
+			#Vanilla permission level required to move a ship with the Sable gizmo. Sable itself 
+			#only requires level 1.
+			# Default: 2
+			# Range: 0 ~ 4
+			gizmoPermissionLevel = 2
+
+		[shtreimel.guard.feedback]
+			#Tell the responsible online player why an action was blocked (action bar).
+			enabled = true
+			# Default: 40
+			# Range: 1 ~ 12000
+			cooldownTicks = 40
+
+		[shtreimel.guard.audit]
+			#Write blocked actions to the audit log (ban evidence).
+			enabled = true
+			#Minimum seconds between audit lines for the same actor, action, and chunk.
+			# Default: 10
+			# Range: 0 ~ 3600
+			cooldownSeconds = 10
+			#Blocked actions kept in memory for /shtreimel guard denials.
+			# Default: 256
+			# Range: 16 ~ 10000
+			recentLimit = 256
+
+	#Ship safety governors, applied before every physics substep.
+	[shtreimel.safety]
+		#Minimum seconds between log/audit lines for the same ship.
+		# Default: 30
+		# Range: 0 ~ 86400
+		logCooldownSeconds = 30
+
+		[shtreimel.safety.speed]
+			#Clamp ship speed so nobody can fling a ship fast enough to break physics.
+			enabled = true
+			#Maximum linear speed in blocks per second.
+			# Default: 150.0
+			# Range: 1.0 ~ 10000.0
+			maxLinearSpeed = 150.0
+			#Maximum angular speed in radians per second (64 is about 611 RPM).
+			# Default: 64.0
+			# Range: 0.1 ~ 10000.0
+			maxAngularSpeed = 64.0
+
+		[shtreimel.safety.border]
+			#Keep ships inside the world border so they (and their passengers) are not lost.
+			enabled = true
+			#How far inside the world border a ship is held, in blocks.
+			# Default: 16.0
+			# Range: 0.0 ~ 4096.0
+			margin = 16.0
+
+	#Dupe guards
+	[shtreimel.dupes]
+		#While Sable removes the original blocks of an assembly or disassembly, refuse any 
+		#item or XP drop those removals produce: the blocks and their contents were already 
+		#copied. Fixes the item-drain/swivel-bearing class of assembly dupes.
+		suppressAssemblyDrops = true

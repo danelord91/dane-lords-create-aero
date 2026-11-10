@@ -1,0 +1,269 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "06_building"
+	group: "0A670F3102D204D1"
+	icon: {
+		id: "create:metal_girder"
+	}
+	id: "4161EA1D2EF76B9C"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["333E4AA10624E375"]
+			icon: {
+				id: "minecraft:paper"
+			}
+			id: "56289580A97CE7C3"
+			rewards: [{
+				id: "0F90AF3BF78015EF"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "7D301A615DC6FAE4"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["56289580A97CE7C3"]
+			icon: {
+				id: "minecraft:stone_bricks"
+			}
+			id: "00EF9F8E7BF59A7E"
+			rewards: [{
+				id: "404D5B2D9DB51AF1"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "1999E242C3540215"
+				type: "checkmark"
+			}]
+			x: 2.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00EF9F8E7BF59A7E"]
+			icon: {
+				id: "create:metal_girder"
+			}
+			id: "4D86A0D8CC3FF433"
+			rewards: [
+				{
+					id: "5161A5691B296A60"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7A98411327A3D833"
+					table_id: 2844632658890425024L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				consume_items: false
+				id: "7BAE1CC1AB3FC9E0"
+				item: { count: 1, id: "create:metal_girder" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4D86A0D8CC3FF433"]
+			icon: {
+				id: "minecraft:lantern"
+			}
+			id: "2A196ED88393027E"
+			rewards: [{
+				id: "17C31D217B683269"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "3149E5460EFFBAC6"
+				type: "checkmark"
+			}]
+			x: 8.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2A196ED88393027E"]
+			icon: {
+				id: "minecraft:barrel"
+			}
+			id: "3782675F5643BEF6"
+			rewards: [{
+				id: "68DA1F6504EDA395"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "25C0AAAAF9E8FF7B"
+				type: "checkmark"
+			}]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3782675F5643BEF6"]
+			icon: {
+				id: "minecraft:iron_door"
+			}
+			id: "78B9334BA973249C"
+			rewards: [{
+				id: "1825EF57BD4680CF"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "24F4A29A346781B2"
+				type: "checkmark"
+			}]
+			x: 13.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["78B9334BA973249C"]
+			icon: {
+				id: "create:empty_schematic"
+			}
+			id: "038A6F280A19D118"
+			rewards: [
+				{
+					id: "77D7CCE517495176"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0BB386D6B0074E9B"
+					table_id: 2844632658890425024L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				consume_items: false
+				id: "68B0250C58DDA55C"
+				item: { count: 1, id: "create:empty_schematic" }
+				type: "item"
+			}]
+			x: 16.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["038A6F280A19D118"]
+			icon: {
+				id: "minecraft:painting"
+			}
+			id: "0AA2AAF6575B242F"
+			rewards: [
+				{
+					id: "76C61EC7ABA6EF08"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 8
+					id: "1D8175C144307570"
+					item: {
+						count: 1
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+				{
+					id: "7EA652FC165EDD62"
+					table_id: 3564254181360378705L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "361D48B895DD1C8A"
+				type: "checkmark"
+			}]
+			x: 19.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["56289580A97CE7C3"]
+			icon: {
+				id: "create:schematic_and_quill"
+			}
+			id: "1C3BCE5C107A7E23"
+			optional: true
+			rewards: [
+				{
+					id: "390B7DCF85879DF3"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0865665861AF27F2"
+					table_id: 2844632658890425024L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				consume_items: false
+				id: "4571418D8030A1B1"
+				item: { count: 1, id: "create:schematic_and_quill" }
+				type: "item"
+			}]
+			x: 2.75d
+			y: 3.0d
+		}
+		{
+			dependencies: ["038A6F280A19D118"]
+			icon: {
+				id: "create:schematicannon"
+			}
+			id: "7027D73450BF15BB"
+			optional: true
+			rewards: [
+				{
+					id: "43F50888E5D9C3DA"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2DA89D80F43B596A"
+					table_id: 2844632658890425024L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				consume_items: false
+				id: "4C27F38A9774BE21"
+				item: { count: 1, id: "create:schematicannon" }
+				type: "item"
+			}]
+			x: 19.25d
+			y: 3.0d
+		}
+	]
+}

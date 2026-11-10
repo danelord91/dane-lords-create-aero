@@ -1,0 +1,233 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "beyondhorizon"
+	group: "4C56D1399B54DC98"
+	icon: {
+		id: "minecraft:spyglass"
+	}
+	id: "53178DE1F2C8C234"
+	images: [ ]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["33F1841162439155"]
+			icon: {
+				id: "minecraft:paper"
+			}
+			id: "67203CB7E3CDEC97"
+			rewards: [{
+				id: "47AC63B8AC09D57E"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "207B9DE36972639B"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["67203CB7E3CDEC97"]
+			icon: {
+				id: "minecraft:spyglass"
+			}
+			id: "5FE26356D7957FB2"
+			rewards: [{
+				id: "641F8BB84EC1AFFA"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "6D397566C2C38170"
+				type: "checkmark"
+			}]
+			x: 2.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5FE26356D7957FB2"]
+			icon: {
+				id: "minecraft:barrel"
+			}
+			id: "2782E551236E0EE9"
+			rewards: [{
+				id: "6765896053263B6A"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "6827FF80C5C5017A"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2782E551236E0EE9"]
+			icon: {
+				id: "minecraft:lantern"
+			}
+			id: "477CD3FDB0DF676E"
+			rewards: [{
+				id: "2A8742D27034D7E5"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "57B204FCEE459871"
+				type: "checkmark"
+			}]
+			x: 8.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["477CD3FDB0DF676E"]
+			icon: {
+				id: "create:item_vault"
+			}
+			id: "0A0ECCA22B546A00"
+			rewards: [{
+				id: "0EFDA8001A34BF63"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "3E6A3D2B141A7AD1"
+				type: "checkmark"
+			}]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0A0ECCA22B546A00"]
+			icon: {
+				id: "create:wrench"
+			}
+			id: "726AFEEAE1A519DC"
+			rewards: [{
+				id: "5A48B23DCE29F8B0"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "49882038A433F12D"
+				type: "checkmark"
+			}]
+			x: 13.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["726AFEEAE1A519DC"]
+			icon: {
+				id: "create:track_station"
+			}
+			id: "0F218C26ADC52B87"
+			optional: true
+			rewards: [{
+				id: "34560A72AFF4A35D"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "700BF57604F5AA50"
+				type: "checkmark"
+			}]
+			x: 16.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["726AFEEAE1A519DC"]
+			icon: {
+				id: "minecraft:bread"
+			}
+			id: "1D89BF5DD95AC95B"
+			rewards: [{
+				id: "2575EA181CC3887D"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "5382526DD950D358"
+				type: "checkmark"
+			}]
+			x: 16.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1D89BF5DD95AC95B"]
+			icon: {
+				id: "create:display_board"
+			}
+			id: "61A598F3897BB8F5"
+			rewards: [
+				{
+					id: "3FFC5F3A62A0D143"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "7D14327D7879BE2F"
+					table_id: 3564254181360378705L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "2DBEC0A8CA75C76A"
+				type: "checkmark"
+			}]
+			x: 19.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["726AFEEAE1A519DC"]
+			icon: {
+				id: "minecraft:shulker_box"
+			}
+			id: "5C684416148FC712"
+			optional: true
+			rewards: [
+				{
+					id: "6FE278CFA73C2EE8"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "60CE7FAE9A4144E5"
+					table_id: 2844632658890425024L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				consume_items: false
+				id: "31919437ABCACF1B"
+				item: { count: 1, id: "minecraft:shulker_box" }
+				type: "item"
+			}]
+			x: 16.5d
+			y: -3.0d
+		}
+	]
+}

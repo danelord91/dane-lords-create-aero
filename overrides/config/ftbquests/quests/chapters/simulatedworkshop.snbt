@@ -1,0 +1,414 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "simulatedworkshop"
+	group: "4C56D1399B54DC98"
+	icon: {
+		id: "simulated:physics_assembler"
+	}
+	id: "3B25BF2871AAEE80"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5D8A0B854DE36AF9"]
+			icon: {
+				id: "minecraft:torch"
+			}
+			id: "05D21196D0C54226"
+			rewards: [{
+				id: "6D1FF143A6A5DABB"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "1690231D21184E1B"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["05D21196D0C54226"]
+			icon: {
+				id: "simulated:physics_assembler"
+			}
+			id: "28466D1DE575DC49"
+			rewards: [{
+				id: "2BB2EA2429219BB0"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "3B1DDEF064A55A4A"
+				type: "checkmark"
+			}]
+			x: 2.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["28466D1DE575DC49"]
+			icon: {
+				id: "create:andesite_casing"
+			}
+			id: "78B58D029B2B77C5"
+			rewards: [{
+				id: "73273B691C8EB806"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "02C44B61B6E96E93"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["78B58D029B2B77C5"]
+			icon: {
+				id: "create:wrench"
+			}
+			id: "2EA46BB7D4284388"
+			rewards: [{
+				id: "04A2C2F4AA1F2E26"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "1406841C7BE73474"
+				type: "checkmark"
+			}]
+			x: 8.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2EA46BB7D4284388"]
+			icon: {
+				id: "simulated:throttle_lever"
+			}
+			id: "529CA87AA47BECE3"
+			rewards: [{
+				id: "03A2699A1D8B32A9"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "0046EDEA5C322C1D"
+				type: "checkmark"
+			}]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["529CA87AA47BECE3"]
+			icon: {
+				id: "minecraft:paper"
+			}
+			id: "289B1D942A13E548"
+			rewards: [{
+				id: "6A2FBB26C919669E"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "0F01CC951CAF0654"
+				type: "checkmark"
+			}]
+			x: 13.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["289B1D942A13E548"]
+			icon: {
+				id: "simulated:velocity_sensor"
+			}
+			id: "577E8FE9FDB84CD5"
+			optional: true
+			rewards: [{
+				id: "7B3032E9B359A647"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "46B38E39F76751F3"
+				type: "checkmark"
+			}]
+			x: 16.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["289B1D942A13E548"]
+			icon: {
+				id: "simulated:docking_connector"
+			}
+			id: "17E0CD461733998C"
+			optional: true
+			rewards: [{
+				id: "1EFDCF9704BC3756"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "1C4B2CA0A4F17E24"
+				type: "checkmark"
+			}]
+			x: 16.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["289B1D942A13E548"]
+			icon: {
+				id: "simulated:contraption_diagram"
+			}
+			id: "26014FC637C7D1BB"
+			rewards: [
+				{
+					id: "71086F53093B8E7A"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "3ED78B1910C6A536"
+					table_id: 3564254181360378705L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "5C26EFD234A3112F"
+				type: "checkmark"
+			}]
+			x: 16.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["05D21196D0C54226"]
+			icon: {
+				id: "simulated:physics_assembler"
+			}
+			id: "7FEA4CE5454677D8"
+			optional: true
+			rewards: [
+				{
+					id: "04F7227ECBF6C17D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3A5764CBFB21FE92"
+					table_id: 5170224906693217172L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				consume_items: false
+				id: "2D53271D18CAF15D"
+				item: { count: 1, id: "simulated:physics_assembler" }
+				type: "item"
+			}]
+			x: 2.75d
+			y: 3.0d
+		}
+		{
+			dependencies: ["28466D1DE575DC49"]
+			icon: {
+				id: "simulated:throttle_lever"
+			}
+			id: "0C5D7AC7F996087E"
+			optional: true
+			rewards: [
+				{
+					id: "04F92A92D3FFA3EE"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5AB6FAA83EBE1585"
+					table_id: 5170224906693217172L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				consume_items: false
+				id: "6302A25A37C334BB"
+				item: { count: 1, id: "simulated:throttle_lever" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["28466D1DE575DC49"]
+			icon: {
+				id: "simulated:steering_wheel"
+			}
+			id: "16E7AFECF570F543"
+			optional: true
+			rewards: [
+				{
+					id: "5A12ACB411BAC5BD"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7A8BE00A7F185828"
+					table_id: 5170224906693217172L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				consume_items: false
+				id: "2A368655790FC050"
+				item: { count: 1, id: "simulated:steering_wheel" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["28466D1DE575DC49"]
+			icon: {
+				id: "simulated:contraption_diagram"
+			}
+			id: "1BD8C8A4C1C90B77"
+			optional: true
+			rewards: [
+				{
+					id: "4287BAB2106CCFFB"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "210628E5AEC28148"
+					table_id: 5170224906693217172L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				consume_items: false
+				id: "08BEC134E09A8534"
+				item: { count: 1, id: "simulated:contraption_diagram" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["289B1D942A13E548"]
+			icon: {
+				id: "simulated:velocity_sensor"
+			}
+			id: "59E7FD20DCCFD45E"
+			optional: true
+			rewards: [
+				{
+					id: "5873C6E6653AF373"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "593C05B0715811A1"
+					table_id: 5170224906693217172L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				consume_items: false
+				id: "15069DCFC4C6AD56"
+				item: { count: 1, id: "simulated:velocity_sensor" }
+				type: "item"
+			}]
+			x: 16.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["289B1D942A13E548"]
+			icon: {
+				id: "simulated:altitude_sensor"
+			}
+			id: "46D83FAF7DE9DC66"
+			optional: true
+			rewards: [
+				{
+					id: "45E4D4C28D4BFDC4"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3CAAD23A2EE6EE56"
+					table_id: 5170224906693217172L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				consume_items: false
+				id: "27ACAA42171E1DD4"
+				item: { count: 1, id: "simulated:altitude_sensor" }
+				type: "item"
+			}]
+			x: 16.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["289B1D942A13E548"]
+			icon: {
+				id: "simulated:docking_connector"
+			}
+			id: "13C0AB48B5743CBF"
+			optional: true
+			rewards: [
+				{
+					id: "4BD59869537CAC7E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0CDFB1E5AED2D15B"
+					table_id: 5170224906693217172L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				consume_items: false
+				id: "530ECC2ADD230257"
+				item: { count: 1, id: "simulated:docking_connector" }
+				type: "item"
+			}]
+			x: 16.5d
+			y: 9.0d
+		}
+	]
+}

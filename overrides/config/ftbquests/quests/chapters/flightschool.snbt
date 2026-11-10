@@ -1,0 +1,394 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "flightschool"
+	group: "4C56D1399B54DC98"
+	icon: {
+		id: "immersive_aircraft:gyrodyne"
+	}
+	id: "30AAC549046D72EC"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["26014FC637C7D1BB"]
+			icon: {
+				id: "minecraft:lantern"
+			}
+			id: "194A768FFF584DB1"
+			rewards: [{
+				id: "5E2C0F38D1BDA870"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "778A08A87A91B19B"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["194A768FFF584DB1"]
+			icon: {
+				id: "minecraft:bread"
+			}
+			id: "78FE7FB9043799E4"
+			rewards: [
+				{
+					id: "2EF44162598EC803"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2B0641FDEF6D3F8A"
+					table_id: 5170224906693217172L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				consume_items: false
+				count: 4L
+				id: "23D0EB6F3CD3AAEB"
+				item: { count: 1, id: "minecraft:bread" }
+				type: "item"
+			}]
+			x: 2.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["78FE7FB9043799E4"]
+			icon: {
+				id: "immersive_aircraft:gyrodyne"
+			}
+			id: "09F1E0F64474E5D3"
+			rewards: [{
+				id: "71D7497787B3A47C"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "46CE54C1D641F7F1"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["09F1E0F64474E5D3"]
+			icon: {
+				id: "minecraft:paper"
+			}
+			id: "4E6E721D5B6DDC4F"
+			rewards: [{
+				id: "434B737D656F4F38"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "63A7E7BF449B8670"
+				type: "checkmark"
+			}]
+			x: 8.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4E6E721D5B6DDC4F"]
+			icon: {
+				id: "create:controls"
+			}
+			id: "07F7F1B5934F4440"
+			rewards: [{
+				id: "2848F51BE8CCD415"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "2FAE19A5D8F7BFEF"
+				type: "checkmark"
+			}]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["07F7F1B5934F4440"]
+			icon: {
+				id: "immersive_aircraft:biplane"
+			}
+			id: "76B3B877171CAD81"
+			rewards: [{
+				id: "65C18B8782B3F031"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "5669DCE82DFED308"
+				type: "checkmark"
+			}]
+			x: 13.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["76B3B877171CAD81"]
+			icon: {
+				id: "aeronautics:wooden_propeller"
+			}
+			id: "165A60C89851DB01"
+			optional: true
+			rewards: [{
+				id: "437E1579BA24CE53"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "39F6F82AFCA45762"
+				type: "checkmark"
+			}]
+			x: 16.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["76B3B877171CAD81"]
+			icon: {
+				id: "immersive_aircraft:enhanced_propeller"
+			}
+			id: "34CDB70160630182"
+			optional: true
+			rewards: [{
+				id: "08B7F80CDCFCA4C0"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "26E52527E7E6B3AD"
+				type: "checkmark"
+			}]
+			x: 16.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["76B3B877171CAD81"]
+			icon: {
+				id: "aeronautics:aviators_goggles"
+			}
+			id: "33F1841162439155"
+			rewards: [
+				{
+					id: "17DF26829F29B5A0"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "537375D97C815A30"
+					table_id: 3564254181360378705L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "6BCDB9CD508F0351"
+				type: "checkmark"
+			}]
+			x: 16.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["194A768FFF584DB1"]
+			icon: {
+				id: "aeronautics:wooden_propeller"
+			}
+			id: "5A5DA8D6CE85A51C"
+			optional: true
+			rewards: [
+				{
+					id: "1FA240C2643D2672"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7591D9354C3AA8F4"
+					table_id: 5170224906693217172L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				consume_items: false
+				id: "2E7F18254FE79EEE"
+				item: { count: 1, id: "aeronautics:wooden_propeller" }
+				type: "item"
+			}]
+			x: 2.75d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5A5DA8D6CE85A51C"]
+			icon: {
+				id: "aeronautics:propeller_bearing"
+			}
+			id: "222BDB6D79878CB9"
+			optional: true
+			rewards: [
+				{
+					id: "21AECBBE5E709C03"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1CF7D8275D43ED5E"
+					table_id: 5170224906693217172L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				consume_items: false
+				id: "391D03CF97B92732"
+				item: { count: 1, id: "aeronautics:propeller_bearing" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["194A768FFF584DB1"]
+			icon: {
+				id: "aeronautics:white_envelope"
+			}
+			id: "4E216418C4D17D84"
+			optional: true
+			rewards: [
+				{
+					id: "5E7F101167F66AE0"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3AC1C7657918E659"
+					table_id: 5170224906693217172L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				consume_items: false
+				id: "552AA2B6EDDC5D75"
+				item: { count: 1, id: "aeronautics:white_envelope" }
+				type: "item"
+			}]
+			x: 2.75d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4E216418C4D17D84"]
+			icon: {
+				id: "aeronautics:adjustable_burner"
+			}
+			id: "631B213C50C0B92E"
+			optional: true
+			rewards: [
+				{
+					id: "66D541E542B1A9DC"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "778FAA18A3FEF281"
+					table_id: 5170224906693217172L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				consume_items: false
+				id: "034B5A9A891F6C9D"
+				item: { count: 1, id: "aeronautics:adjustable_burner" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4E6E721D5B6DDC4F"]
+			icon: {
+				id: "aeronautics:aviators_goggles"
+			}
+			id: "5BA83F5B7819ECFF"
+			optional: true
+			rewards: [
+				{
+					id: "184CFF5D8E2E5A6D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0A68B93358950C3B"
+					table_id: 5170224906693217172L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				consume_items: false
+				id: "00DBA7243EA8B8C3"
+				item: { count: 1, id: "aeronautics:aviators_goggles" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["194A768FFF584DB1"]
+			icon: {
+				id: "immersive_aircraft:gyrodyne"
+			}
+			id: "3C2717CF53559320"
+			optional: true
+			rewards: [
+				{
+					id: "5641995619DB38B7"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "105CFEAA3FE168CA"
+					table_id: 5170224906693217172L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				consume_items: false
+				id: "33C9CCBB53B6EF3A"
+				item: { count: 1, id: "immersive_aircraft:gyrodyne" }
+				type: "item"
+			}]
+			x: 2.75d
+			y: 6.0d
+		}
+	]
+}

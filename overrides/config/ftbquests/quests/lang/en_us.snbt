@@ -1,0 +1,1147 @@
+{
+  "file.0000000000000001.title": "Dane Lord's Create Aero — Build Beyond the Horizon",
+  "chapter_group.6C5E64FDD773C37F.title": "§6§lStart Here§r",
+  "chapter_group.6EE4D68DCB811587.title": "§6§lWorkshop and Industry§r",
+  "chapter_group.4C56D1399B54DC98.title": "§b§lThe Flight Deck§r",
+  "chapter_group.0A670F3102D204D1.title": "§a§lLife Beyond the Hangar§r",
+  "reward_table.47C05428DC538B94.title": "Hangar Parts Crate",
+  "reward_table.277A2A54EDA382C0.title": "Foundry Supply Crate",
+  "reward_table.3176C64B312FA351.title": "Crew Experience Bonus",
+  "chapter.568CB144CEC1B0DC.title": "§6§lTutorial§r",
+  "chapter.568CB144CEC1B0DC.chapter_subtitle": [
+    "A workshop today. A flying machine tomorrow."
+  ],
+  "image.34F884F8CC7EEFE1.title": "Dane Lord's Create Aero — Build Beyond the Horizon",
+  "task.40259931D024BE55.title": "Do the activity, then tick to confirm",
+  "quest.767C4495E5A5F59E.title": "Build Beyond the Horizon",
+  "quest.767C4495E5A5F59E.quest_subtitle": "Manual build or learning milestone",
+  "quest.767C4495E5A5F59E.quest_desc": [
+    "Welcome to Dane Lord's Create Aero. Your goal is to turn a patch of land into a workshop, a workshop into an industry, and your own designs into machines that travel.",
+    "This book is a guide, not a race. Item tasks check your inventory without consuming the items. Manual checklists ask you to try something in the world; they are not automatic build detectors.",
+    "Manual checklist: complete the activity above, then tick this task yourself. This quest does not automatically inspect your build."
+  ],
+  "task.393C15A5960D4CD8.title": "Do the activity, then tick to confirm",
+  "quest.17D1466007408351.title": "Your Workshop Reference",
+  "quest.17D1466007408351.quest_subtitle": "Manual build or learning milestone",
+  "quest.17D1466007408351.quest_desc": [
+    "Open JEI and find the recipes and uses for a Create shaft. Browse the variants and check any alternative ingredients before you commit resources.",
+    "Recipe and use keybinds can be changed in Controls. This pack includes recipe additions, so use the recipes shown in your installed instance rather than an old tutorial.",
+    "Manual checklist: complete the activity above, then tick this task yourself. This quest does not automatically inspect your build."
+  ],
+  "task.3D68DFA380B47A1C.title": "Do the activity, then tick to confirm",
+  "quest.2C36D1172CBA26C6.title": "Look Inside the Machine",
+  "quest.2C36D1172CBA26C6.quest_subtitle": "Manual build or learning milestone",
+  "quest.2C36D1172CBA26C6.quest_desc": [
+    "Find a Create component that offers Ponder and open its demonstration. Follow how power enters, what moves, and where items leave.",
+    "Treat Ponder as a miniature test bench. If a component behaves differently than expected, revisit its demonstration and the installed mod controls.",
+    "Manual checklist: complete the activity above, then tick this task yourself. This quest does not automatically inspect your build."
+  ],
+  "quest.6B596B9B957EA888.title": "A Small Start",
+  "quest.6B596B9B957EA888.quest_subtitle": "Inventory milestone — items are not consumed",
+  "quest.6B596B9B957EA888.quest_desc": [
+    "Make a crafting table and choose somewhere you can safely unpack your first supplies.",
+    "Leave yourself room to expand sideways. Machines need access for belts, shafts and maintenance."
+  ],
+  "task.5724539A14384DBE.title": "Do the activity, then tick to confirm",
+  "quest.45014BBCDE53ACD6.title": "A Roof Before a Runway",
+  "quest.45014BBCDE53ACD6.quest_subtitle": "Manual build or learning milestone",
+  "quest.45014BBCDE53ACD6.quest_desc": [
+    "Build a lit shelter with a bed or safe resting spot, food, and an organised chest.",
+    "A dependable home makes ambitious projects less painful. Keep an emergency tool kit separate from your machinery supplies.",
+    "Manual checklist: complete the activity above, then tick this task yourself. This quest does not automatically inspect your build."
+  ],
+  "task.6314092500604DFE.title": "Do the activity, then tick to confirm",
+  "quest.066890D4D29FC757.title": "Know Your Controls",
+  "quest.066890D4D29FC757.quest_subtitle": "Manual build or learning milestone",
+  "quest.066890D4D29FC757.quest_desc": [
+    "Open Controls and inspect the bindings for quests, maps, Create and the aircraft-related mods. Resolve conflicts before flying.",
+    "Do not assume a key from someone else's setup will match yours. Test a changed binding somewhere safe.",
+    "Manual checklist: complete the activity above, then tick this task yourself. This quest does not automatically inspect your build."
+  ],
+  "task.0783A11D0D39199D.title": "Do the activity, then tick to confirm",
+  "quest.6AEE38E6F78C51BA.title": "Make Room for Your Crew",
+  "quest.6AEE38E6F78C51BA.quest_subtitle": "Manual build or learning milestone",
+  "quest.6AEE38E6F78C51BA.quest_desc": [
+    "If you play multiplayer, agree on a building area and inspect Open Parties and Claims and FTB Teams with your group. Solo players can review the settings without creating a team.",
+    "Claims, party membership and machine access are separate policies. Ask the server owner about chunk-loading limits and offline rules rather than assuming they are enabled.",
+    "Manual checklist: complete the activity above, then tick this task yourself. This quest does not automatically inspect your build."
+  ],
+  "task.0D21258A8252EE4A.title": "Do the activity, then tick to confirm",
+  "quest.7A4E729DD8C21030.title": "Hangar Doors Open",
+  "quest.7A4E729DD8C21030.quest_subtitle": "Manual build or learning milestone",
+  "quest.7A4E729DD8C21030.quest_desc": [
+    "You have a place to return to, a way to look up recipes, and controls you understand. Your next job is a machine that does useful work.",
+    "Follow The First Workshop next. The optional food, building and exploration chapters are there when you want a change of pace.",
+    "Manual checklist: complete the activity above, then tick this task yourself. This quest does not automatically inspect your build."
+  ],
+  "chapter.2648F282770B7C3B.title": "§6The First Workshop§r",
+  "chapter.2648F282770B7C3B.chapter_subtitle": [
+    "Learn rotation before chasing scale."
+  ],
+  "quest.5E352B3B21DDCCE3.title": "The Engineer's Starting Material",
+  "quest.5E352B3B21DDCCE3.quest_subtitle": "Inventory milestone — items are not consumed",
+  "quest.5E352B3B21DDCCE3.quest_desc": [
+    "Obtain four andesite alloy using the recipe shown in JEI. Put aside a little extra for experiments.",
+    "This is a useful early material, not a reason to empty a mountain. Build small while you learn."
+  ],
+  "quest.13BDD3DF69FE2293.title": "A Line of Rotation",
+  "quest.13BDD3DF69FE2293.quest_subtitle": "Inventory milestone — items are not consumed",
+  "quest.13BDD3DF69FE2293.quest_desc": [
+    "Craft a shaft and use Ponder to inspect how it connects.",
+    "A shaft carries rotation along an axis. Plan the route from your power source to your first machine before placing a long line."
+  ],
+  "quest.1A5E70F0ACABC153.title": "Turn a Corner",
+  "quest.1A5E70F0ACABC153.quest_subtitle": "Inventory milestone — items are not consumed",
+  "quest.1A5E70F0ACABC153.quest_desc": [
+    "Obtain a small and a large cogwheel. Try different connections in a small test rig.",
+    "Watch direction as well as speed. Gearing can change both; faster output does not mean the system gained free power."
+  ],
+  "quest.486B616B00BEE5F3.title": "Power Beside the Workshop",
+  "quest.486B616B00BEE5F3.quest_subtitle": "Inventory milestone — items are not consumed",
+  "quest.486B616B00BEE5F3.quest_desc": [
+    "Obtain a water wheel and check its current Ponder demonstration.",
+    "Place it where you can supply flowing water and reach the output shaft. Leave a way to stop the setup while making changes."
+  ],
+  "task.768BF18B64EE4DB1.title": "Do the activity, then tick to confirm",
+  "quest.25A38A9C479E6326.title": "The First Useful Turn",
+  "quest.25A38A9C479E6326.quest_subtitle": "Manual build or learning milestone",
+  "quest.25A38A9C479E6326.quest_desc": [
+    "Install the water wheel, connect a short shaft line, and confirm that the output rotates.",
+    "Keep this experiment accessible. You will use it to understand gearing before attaching several machines.",
+    "Manual checklist: complete the activity above, then tick this task yourself. This quest does not automatically inspect your build."
+  ],
+  "quest.085908EA158FE045.title": "Give the Workshop a Frame",
+  "quest.085908EA158FE045.quest_subtitle": "Inventory milestone — items are not consumed",
+  "quest.085908EA158FE045.quest_desc": [
+    "Obtain andesite casing using the installed recipe or interaction shown in JEI.",
+    "Casing turns up in many early components. Keep your material stores close enough to build comfortably."
+  ],
+  "quest.439A22CAF9DAF192.title": "A Press of Your Own",
+  "quest.439A22CAF9DAF192.quest_subtitle": "Inventory milestone — items are not consumed",
+  "quest.439A22CAF9DAF192.quest_desc": [
+    "Obtain a mechanical press. Inspect its Ponder scene before positioning it.",
+    "It needs both a suitable working space below and a rotational input. Do not bury the access side in a wall."
+  ],
+  "quest.1C913DDE064F8CBF.title": "A Place for the Workpiece",
+  "quest.1C913DDE064F8CBF.quest_subtitle": "Inventory milestone — items are not consumed",
+  "quest.1C913DDE064F8CBF.quest_desc": [
+    "Obtain a depot for your first pressing station.",
+    "Place it where the press demonstration indicates. A visible input area makes troubleshooting easier than a hidden belt."
+  ],
+  "quest.68463C2321E1939A.title": "First Sheet off the Line",
+  "quest.68463C2321E1939A.quest_subtitle": "Inventory milestone — items are not consumed",
+  "quest.68463C2321E1939A.quest_desc": [
+    "Produce one iron sheet with your pressing station. JEI shows the current processing recipe.",
+    "This item check confirms you have the output, not that a particular machine produced it. Try the pressing operation yourself before moving on."
+  ],
+  "quest.04845688DE17D490.title": "Carry the Right Tool",
+  "quest.04845688DE17D490.quest_subtitle": "Inventory milestone — items are not consumed",
+  "quest.04845688DE17D490.quest_desc": [
+    "Obtain a wrench and practise its interactions on a spare component.",
+    "Use Ponder and the tooltips for the installed version. Keep valuable mechanisms clear of experiments until you understand the controls."
+  ],
+  "quest.7A075B0281608FF6.title": "See What the Machine Needs",
+  "quest.7A075B0281608FF6.quest_subtitle": "Inventory milestone — items are not consumed",
+  "quest.7A075B0281608FF6.quest_desc": [
+    "Obtain engineer's goggles and inspect the information shown while looking at machinery.",
+    "Read the numbers when a network stops. An overloaded network needs diagnosis, not just another gear."
+  ],
+  "task.7F4790F47667CC71.title": "Do the activity, then tick to confirm",
+  "quest.333E4AA10624E375.title": "Workshop Commissioned",
+  "quest.333E4AA10624E375.quest_subtitle": "Manual build or learning milestone",
+  "quest.333E4AA10624E375.quest_desc": [
+    "Run the press again, collect its output, and demonstrate how to stop and restart the drive.",
+    "Keep one chest for raw materials and another for finished work. You now have a workshop worth expanding.",
+    "Manual checklist: complete the activity above, then tick this task yourself. This quest does not automatically inspect your build."
+  ],
+  "chapter.5515F09EE0AAE20B.title": "§6Production Lines§r",
+  "chapter.5515F09EE0AAE20B.chapter_subtitle": [
+    "Move materials, remove bottlenecks, repeat."
+  ],
+  "quest.0D9E2CF406CBF1D2.title": "Make Processing Repeatable",
+  "quest.0D9E2CF406CBF1D2.quest_subtitle": "Inventory milestone — items are not consumed",
+  "quest.0D9E2CF406CBF1D2.quest_desc": [
+    "Obtain a millstone and look up a recipe it can process in this pack.",
+    "Start with a small batch. Check the output and the remaining input before adding an unattended supply."
+  ],
+  "quest.149EB5B3C34DEC6F.title": "Put Work on a Belt",
+  "quest.149EB5B3C34DEC6F.quest_subtitle": "Inventory milestone — items are not consumed",
+  "quest.149EB5B3C34DEC6F.quest_desc": [
+    "Obtain a belt connector and inspect the shaft placement needed to create a belt.",
+    "Build a short transport line first. Keep the input and collection point visible while learning."
+  ],
+  "quest.571BE55DF3754178.title": "Feed the Line",
+  "quest.571BE55DF3754178.quest_subtitle": "Inventory milestone — items are not consumed",
+  "quest.571BE55DF3754178.quest_desc": [
+    "Obtain an andesite funnel. Use it to connect a storage point to the line you are testing.",
+    "Observe which direction materials move and where an overflow would go. An input that never stops needs a safe place for its output."
+  ],
+  "quest.4607D23983147D32.title": "A Vessel for Batch Work",
+  "quest.4607D23983147D32.quest_subtitle": "Inventory milestone — items are not consumed",
+  "quest.4607D23983147D32.quest_desc": [
+    "Obtain a basin. Inspect its supported processing uses in JEI.",
+    "Plan space above it and a collection route below or beside it rather than building a cramped assembly."
+  ],
+  "quest.157CE8391C7A47B7.title": "Mix with a Purpose",
+  "quest.157CE8391C7A47B7.quest_subtitle": "Inventory milestone — items are not consumed",
+  "quest.157CE8391C7A47B7.quest_desc": [
+    "Obtain a mechanical mixer and select a recipe you actually need.",
+    "Check whether the chosen recipe needs heat and a particular rotational speed. Different processing operations have different requirements."
+  ],
+  "quest.48B2A795D36BA127.title": "Air Can Process Materials",
+  "quest.48B2A795D36BA127.quest_subtitle": "Inventory milestone — items are not consumed",
+  "quest.48B2A795D36BA127.quest_desc": [
+    "Obtain an encased fan and explore its processing demonstrations and JEI categories.",
+    "Choose one processing setup and keep the working area clear of anything you do not want moved or processed."
+  ],
+  "task.357E0C370F91BA46.title": "Do the activity, then tick to confirm",
+  "quest.57608E18FA780598.title": "A Wash Station That Works",
+  "quest.57608E18FA780598.quest_subtitle": "Manual build or learning milestone",
+  "quest.57608E18FA780598.quest_desc": [
+    "Build and test a fan-based washing setup using a recipe shown by your installed JEI.",
+    "Separate the output from incoming items so it does not cycle through the same path forever.",
+    "Manual checklist: complete the activity above, then tick this task yourself. This quest does not automatically inspect your build."
+  ],
+  "task.400AF8C5ADDF6D11.title": "Do the activity, then tick to confirm",
+  "quest.2A9D0382034B74B6.title": "Know Where It All Goes",
+  "quest.2A9D0382034B74B6.quest_subtitle": "Manual build or learning milestone",
+  "quest.2A9D0382034B74B6.quest_desc": [
+    "Build a labelled input, output and overflow area for one processing line.",
+    "Watch a full batch pass through before calling the line finished. A blocked output is a design problem, not an excuse to hide more chests.",
+    "Manual checklist: complete the activity above, then tick this task yourself. This quest does not automatically inspect your build."
+  ],
+  "quest.0F67E53CD648FCD5.title": "Give the Factory an Off Switch",
+  "quest.0F67E53CD648FCD5.quest_subtitle": "Inventory milestone — items are not consumed",
+  "quest.0F67E53CD648FCD5.quest_desc": [
+    "Obtain a clutch and inspect how it can interrupt part of a drive network.",
+    "Arrange a shutdown point you can reach without climbing through moving machinery."
+  ],
+  "task.4AD53284B8B04A9D.title": "Do the activity, then tick to confirm",
+  "quest.540CBCBD114E0E0A.title": "One Product, Reliably",
+  "quest.540CBCBD114E0E0A.quest_subtitle": "Manual build or learning milestone",
+  "quest.540CBCBD114E0E0A.quest_desc": [
+    "Choose a useful product and run a repeatable line from storage through processing to collection.",
+    "Complete three small batches without manually rescuing items. Explain where the bottleneck is and what you would improve next.",
+    "Manual checklist: complete the activity above, then tick this task yourself. This quest does not automatically inspect your build."
+  ],
+  "quest.2CA887D86AAA4078.title": "Optional Equipment: A Crushing Stage",
+  "quest.2CA887D86AAA4078.quest_subtitle": "Inventory milestone — items are not consumed",
+  "quest.2CA887D86AAA4078.quest_desc": [
+    "Crushing is a separate processing choice from milling. Look up a useful crushing recipe and inspect the wheel arrangement in Ponder before expanding the floor plan.",
+    "Inventory objective: have one of this item in your inventory after this quest becomes available. It is not consumed. This proves possession only; use the associated manual study to check a working installation."
+  ],
+  "quest.12140D07B97618B8.title": "Optional Equipment: Move a Fluid",
+  "quest.12140D07B97618B8.quest_subtitle": "Inventory milestone — items are not consumed",
+  "quest.12140D07B97618B8.quest_desc": [
+    "Choose a fluid route with a visible source and destination. Check the pump demonstration, direction and pipe connections before adding a continuous supply.",
+    "Inventory objective: have one of this item in your inventory after this quest becomes available. It is not consumed. This proves possession only; use the associated manual study to check a working installation."
+  ],
+  "quest.77D18D63681E102F.title": "Optional Equipment: Controlled Filling",
+  "quest.77D18D63681E102F.quest_subtitle": "Inventory milestone — items are not consumed",
+  "quest.77D18D63681E102F.quest_desc": [
+    "Inspect a filling recipe that would help your workshop. A spout is a processing endpoint, not a replacement for planning its fluid supply.",
+    "Inventory objective: have one of this item in your inventory after this quest becomes available. It is not consumed. This proves possession only; use the associated manual study to check a working installation."
+  ],
+  "chapter.32BEB140C5C93A56.title": "§6Precision Engineering§r",
+  "chapter.32BEB140C5C93A56.chapter_subtitle": [
+    "Brass, controlled handling and dependable mechanisms."
+  ],
+  "quest.0E18F7615BAAA2AA.title": "Prepare for Heated Work",
+  "quest.0E18F7615BAAA2AA.quest_subtitle": "Inventory milestone — items are not consumed",
+  "quest.0E18F7615BAAA2AA.quest_desc": [
+    "Obtain an empty blaze burner. Read its demonstration and plan a safe trip before attempting to fill it.",
+    "Do not take your entire workshop into a dangerous area. Check the installed interactions rather than assuming every heat source is interchangeable."
+  ],
+  "task.5B395A223109EA6C.title": "Do the activity, then tick to confirm",
+  "quest.09B4FE433089B82D.title": "Heat under Control",
+  "quest.09B4FE433089B82D.quest_subtitle": "Manual build or learning milestone",
+  "quest.09B4FE433089B82D.quest_desc": [
+    "Set up a working heated processing station appropriate for a brass recipe in JEI.",
+    "Confirm the heat state required by that recipe and how fuel is supplied. Tick this only after you have tried the station.",
+    "Manual checklist: complete the activity above, then tick this task yourself. This quest does not automatically inspect your build."
+  ],
+  "quest.6A95A51C1147A887.title": "A New Material on the Bench",
+  "quest.6A95A51C1147A887.quest_subtitle": "Inventory milestone — items are not consumed",
+  "quest.6A95A51C1147A887.quest_desc": [
+    "Produce or obtain a brass ingot. Use JEI to compare how it becomes your next components.",
+    "The quest records the material in your inventory; it does not require spending a stack just to prove progress."
+  ],
+  "quest.778E8963D7593992.title": "Build a Precision Mechanism",
+  "quest.778E8963D7593992.quest_subtitle": "Inventory milestone — items are not consumed",
+  "quest.778E8963D7593992.quest_desc": [
+    "Follow the installed sequenced-assembly recipe to obtain a precision mechanism.",
+    "Lay out the steps on paper first. Keep intermediate items separate and remember that the shown recipe may repeat operations."
+  ],
+  "quest.09BDB755A3AF6FA5.title": "Smarter Material Handling",
+  "quest.09BDB755A3AF6FA5.quest_subtitle": "Inventory milestone — items are not consumed",
+  "quest.09BDB755A3AF6FA5.quest_desc": [
+    "Obtain a brass funnel and inspect its filtering and handling options.",
+    "Use it where controlling the flow solves a real problem. A precise line is more useful than an expensive display piece."
+  ],
+  "quest.2B1F25E62AC11445.title": "Set the Speed You Need",
+  "quest.2B1F25E62AC11445.quest_subtitle": "Inventory milestone — items are not consumed",
+  "quest.2B1F25E62AC11445.quest_desc": [
+    "Obtain a rotation speed controller and read its working limits.",
+    "Increasing RPM can increase stress demand. Verify your whole network before raising a setting."
+  ],
+  "quest.0F592F7D2593CCF2.title": "Craft on the Factory Floor",
+  "quest.0F592F7D2593CCF2.quest_subtitle": "Inventory milestone — items are not consumed",
+  "quest.0F592F7D2593CCF2.quest_desc": [
+    "Obtain a mechanical crafter and inspect the layout rules in Ponder.",
+    "Pick a small, relevant crafting target before planning a huge wall of crafters."
+  ],
+  "task.2E1E28B56F1821C5.title": "Do the activity, then tick to confirm",
+  "quest.5D8A0B854DE36AF9.title": "The Precision Workshop",
+  "quest.5D8A0B854DE36AF9.quest_subtitle": "Manual build or learning milestone",
+  "quest.5D8A0B854DE36AF9.quest_desc": [
+    "Demonstrate one controlled processing or crafting line with a visible input and a predictable output.",
+    "You can now branch into power, rail logistics and more ambitious mechanisms. Aviation remains a separate build-and-test discipline.",
+    "Manual checklist: complete the activity above, then tick this task yourself. This quest does not automatically inspect your build."
+  ],
+  "quest.2388A0F87B525A5D.title": "Optional Equipment: A Mechanical Hand",
+  "quest.2388A0F87B525A5D.quest_subtitle": "Inventory milestone — items are not consumed",
+  "quest.2388A0F87B525A5D.quest_desc": [
+    "Inspect how deployers participate in the installed assembly recipes. Keep the held tool or ingredient and the workpiece path distinct while planning the operation.",
+    "Inventory objective: have one of this item in your inventory after this quest becomes available. It is not consumed. This proves possession only; use the associated manual study to check a working installation."
+  ],
+  "quest.569C3D8EF3C60BF7.title": "Optional Equipment: Select the Stock",
+  "quest.569C3D8EF3C60BF7.quest_subtitle": "Inventory milestone — items are not consumed",
+  "quest.569C3D8EF3C60BF7.quest_desc": [
+    "Use a filter to express what a route should accept. Test it with cheap items before trusting a line that contains valuable mechanisms.",
+    "Inventory objective: have one of this item in your inventory after this quest becomes available. It is not consumed. This proves possession only; use the associated manual study to check a working installation."
+  ],
+  "chapter.34A9A700E62B5A3F.title": "§6Power and Utilities§r",
+  "chapter.34A9A700E62B5A3F.chapter_subtitle": [
+    "Choose one dependable source, then build for the machines you actually use."
+  ],
+  "task.06D17BB856A027BB.title": "Do the activity, then tick to confirm",
+  "quest.17F430D4CE732F52.title": "Draw the Power Boundary",
+  "quest.17F430D4CE732F52.quest_subtitle": "Manual build or learning milestone",
+  "quest.17F430D4CE732F52.quest_desc": [
+    "Start with a small service area rather than a grand generating hall. Pick two workshop jobs you want to power and leave room to walk between their machines.",
+    "Manual checklist: mark a source location, a transmission route and a maintenance aisle in the world. Tick this after placing those markers; a paper plan alone does not finish the survey."
+  ],
+  "task.0781CD9D9284AE07.title": "Do the activity, then tick to confirm",
+  "quest.08E993ABDB1F23F1.title": "One Source Is Enough",
+  "quest.08E993ABDB1F23F1.quest_subtitle": "Manual build or learning milestone",
+  "quest.08E993ABDB1F23F1.quest_desc": [
+    "Choose a source you can maintain now: a familiar water or wind setup is a valid permanent answer. Steam, Diesel Generators, Petrochem and electrical conversions are alternatives to explore, not a shopping list of compulsory systems.",
+    "Manual checklist: build one working source using the installed JEI recipes and available Ponder lessons, then demonstrate rotation at its output. Tick this after the demonstration. The optional source studies below are not required."
+  ],
+  "quest.303434432BBD9B2D.title": "A Short, Understandable Run",
+  "quest.303434432BBD9B2D.quest_subtitle": "Inventory milestone — items are not consumed",
+  "quest.303434432BBD9B2D.quest_desc": [
+    "Gather a few shafts for the route from the source to your work area. Keep the first line short enough that you can trace it without disappearing behind walls.",
+    "These shafts are a starter kit, not proof of a connected factory. Use current Ponder lessons when you need to redirect rotation; add only the transmission parts your actual route needs."
+  ],
+  "task.5CBB46255828F912.title": "Do the activity, then tick to confirm",
+  "quest.0898599691D20BD3.title": "Stop the Job, Not the Whole Base",
+  "quest.0898599691D20BD3.quest_subtitle": "Manual build or learning milestone",
+  "quest.0898599691D20BD3.quest_desc": [
+    "A readable power line is easier to repair when one work area can be disconnected. Learn the installed clutch's behavior before hiding the line in a floor.",
+    "Manual checklist: fit a controllable disconnect to one machine branch and test both states. Tick this after that branch stops and restarts without rebuilding its transmission."
+  ],
+  "task.4E3E9905B7335593.title": "Do the activity, then tick to confirm",
+  "quest.0583B1C859822959.title": "Measure a Working Shift",
+  "quest.0583B1C859822959.quest_subtitle": "Manual build or learning milestone",
+  "quest.0583B1C859822959.quest_desc": [
+    "A machine turning while idle tells only part of the story. Run your two chosen workshop jobs with actual inputs, and look for stopped rotation, unexpected direction or a line that cannot support both jobs.",
+    "Manual checklist: process a small batch at each job, test them together and correct one issue if the test reveals one. Tick this after a successful repeat; reduce speed or split the workload rather than assuming a larger generator is the only answer."
+  ],
+  "task.73AD98AEF3C27E73.title": "Do the activity, then tick to confirm",
+  "quest.68CC6542BEC438B7.title": "Optional Study: A Steam Corner",
+  "quest.68CC6542BEC438B7.quest_subtitle": "Manual build or learning milestone",
+  "quest.68CC6542BEC438B7.quest_desc": [
+    "Steam is a separate engineering project, not an entrance fee for transport or flight. Study the current steam-engine Ponder scenes and JEI entries before committing space or materials.",
+    "Manual checklist: build a small steam installation matching those installed instructions and run one useful machine from it. Tick this only after testing its supply and restart procedure. This optional study is not a station-capstone prerequisite."
+  ],
+  "task.3356013987EF1386.title": "Do the activity, then tick to confirm",
+  "quest.257F2744F56D21B2.title": "Optional Study: A Fuel Ledger",
+  "quest.257F2744F56D21B2.quest_subtitle": "Manual build or learning milestone",
+  "quest.257F2744F56D21B2.quest_desc": [
+    "Pick either Diesel Generators or Petrochem for this experiment. Read that engine's installed recipe and accepted-fuel information; similarly named fluids from different mods should not be assumed interchangeable.",
+    "Manual checklist: build one engine system from the chosen family, supply a small batch of a verified accepted fuel and run a useful load. Record how you will replenish it, then tick this. You do not need both engine families or a large refinery."
+  ],
+  "task.49DA996369C35657.title": "Do the activity, then tick to confirm",
+  "quest.4994A7E01B437FF7.title": "Optional Study: Across the Conversion",
+  "quest.4994A7E01B437FF7.quest_subtitle": "Manual build or learning milestone",
+  "quest.4994A7E01B437FF7.quest_desc": [
+    "Choose New Age or Crafts and Additions and investigate one supported generation-to-load route. Follow the installed documentation for that family; matching energy labels alone do not establish that every connector can share a network.",
+    "Manual checklist: build one documented electrical route and demonstrate a useful powered output. Tick this after stopping and restarting the setup successfully. Neither this study nor collecting every electrical mod is required for the main station."
+  ],
+  "task.43E36FC49DDB11E2.title": "Do the activity, then tick to confirm",
+  "quest.3E88BB2704364ABE.title": "Ready for the Next Operator",
+  "quest.3E88BB2704364ABE.quest_subtitle": "Manual build or learning milestone",
+  "quest.3E88BB2704364ABE.quest_desc": [
+    "A finished station should make sense to someone who did not build it. Keep the successful source, even if it is the simplest option, and label its supply needs and the disconnect for each working branch.",
+    "Manual checklist: add those labels, stop the station deliberately, then restore both workshop jobs using your own labels as the guide. Tick this after a clean restart. This is a player-verified build milestone, not automatic structure detection."
+  ],
+  "quest.6D49479EB871DA37.title": "Optional Instrument: Know the Load",
+  "quest.6D49479EB871DA37.quest_subtitle": "Inventory milestone — items are not consumed",
+  "quest.6D49479EB871DA37.quest_desc": [
+    "Read the stressometer Ponder scene and compare its purpose with a speedometer. Measuring capacity and measuring speed are different jobs.",
+    "Inventory objective: have one of this item in your inventory after this quest becomes available. It is not consumed. This proves possession only; use the associated manual study to check a working installation."
+  ],
+  "quest.58971E75A8F61D17.title": "Optional Equipment: Steam Drive",
+  "quest.58971E75A8F61D17.quest_subtitle": "Inventory milestone — items are not consumed",
+  "quest.58971E75A8F61D17.quest_desc": [
+    "This is a component milestone for the steam study, not proof of a complete boiler. Check the current engine demonstration before choosing tank size and operating supplies.",
+    "Inventory objective: have one of this item in your inventory after this quest becomes available. It is not consumed. This proves possession only; use the associated manual study to check a working installation."
+  ],
+  "quest.610876563769303B.title": "Optional Equipment: Fuel Engine",
+  "quest.610876563769303B.quest_subtitle": "Inventory milestone — items are not consumed",
+  "quest.610876563769303B.quest_desc": [
+    "Choose a documented fuel for the installed diesel engine. Obtaining the engine does not establish that a nearby refinery produces compatible fuel.",
+    "Inventory objective: have one of this item in your inventory after this quest becomes available. It is not consumed. This proves possession only; use the associated manual study to check a working installation."
+  ],
+  "quest.25CD62647CFC8B12.title": "Optional Equipment: Rotation to Electricity",
+  "quest.25CD62647CFC8B12.quest_subtitle": "Inventory milestone — items are not consumed",
+  "quest.25CD62647CFC8B12.quest_desc": [
+    "Inspect the Crafts and Additions alternator and identify a supported load. Plan the generation and return connection from this mod's installed guidance.",
+    "Inventory objective: have one of this item in your inventory after this quest becomes available. It is not consumed. This proves possession only; use the associated manual study to check a working installation."
+  ],
+  "quest.508212DE16D38C7B.title": "Optional Equipment: Electric Drive",
+  "quest.508212DE16D38C7B.quest_subtitle": "Inventory milestone — items are not consumed",
+  "quest.508212DE16D38C7B.quest_desc": [
+    "Inspect the motor as a separate conversion endpoint. Identify an appropriate supply and connectors rather than assuming that every electrical cable works with every motor.",
+    "Inventory objective: have one of this item in your inventory after this quest becomes available. It is not consumed. This proves possession only; use the associated manual study to check a working installation."
+  ],
+  "quest.558BA5D84DB24FE5.title": "Optional Equipment: New Age Generation",
+  "quest.558BA5D84DB24FE5.quest_subtitle": "Inventory milestone — items are not consumed",
+  "quest.558BA5D84DB24FE5.quest_desc": [
+    "Start a New Age branch by inspecting the generator-coil demonstrations. This branch is an alternative study and does not require you to replace a reliable water-wheel network.",
+    "Inventory objective: have one of this item in your inventory after this quest becomes available. It is not consumed. This proves possession only; use the associated manual study to check a working installation."
+  ],
+  "chapter.0DF0503BDF5D51FC.title": "§6Railway Logistics§r",
+  "chapter.0DF0503BDF5D51FC.chapter_subtitle": [
+    "A short useful railway beats a long empty one."
+  ],
+  "task.1ADA70ACB9631B36.title": "Do the activity, then tick to confirm",
+  "quest.064B51CBFDF34F83.title": "Walk It Before You Lay It",
+  "quest.064B51CBFDF34F83.quest_subtitle": "Manual build or learning milestone",
+  "quest.064B51CBFDF34F83.quest_desc": [
+    "Choose two nearby places that actually need to exchange supplies: a workshop and a storage shed are enough. Walk the proposed route and look for tight approaches, steep changes and places where unloading would block the entrance.",
+    "Manual checklist: mark both endpoints and a clear corridor between them. Tick this after walking that corridor in both directions; this first service does not need to cross a continent."
+  ],
+  "quest.22B8150487690673.title": "The First Length of Track",
+  "quest.22B8150487690673.quest_subtitle": "Inventory milestone — items are not consumed",
+  "quest.22B8150487690673.quest_desc": [
+    "Make a small batch of Create track using the installed JEI recipe. Treat this as a sample for learning placement, not a demand to stockpile an entire railway in advance.",
+    "Use the current track Ponder lessons to learn connections and curves. Extend the line in measured sections so an awkward bend is cheap to move."
+  ],
+  "task.7FA797A60A109130.title": "Do the activity, then tick to confirm",
+  "quest.5ADC09FB949057FB.title": "Two Places Worth Stopping",
+  "quest.5ADC09FB949057FB.quest_subtitle": "Manual build or learning milestone",
+  "quest.5ADC09FB949057FB.quest_desc": [
+    "Give each endpoint a purpose and a name. Leave room beside the intended stopping position for an operator and a small cargo buffer, rather than building platforms around an untested train length.",
+    "Manual checklist: connect the short route and establish two usable station stops following current Ponder instructions. Tick this after checking that each approach and stopping area is clear."
+  ],
+  "task.24768393B421BDB9.title": "Do the activity, then tick to confirm",
+  "quest.3939635AB735C052.title": "Build for One Useful Load",
+  "quest.3939635AB735C052.quest_subtitle": "Manual build or learning milestone",
+  "quest.3939635AB735C052.quest_desc": [
+    "Build the smallest train that suits the route and leaves you a clear view. Follow the installed assembly guidance for bogeys, controls and connected blocks; this quest does not prescribe a version-specific assembly click.",
+    "Manual checklist: assemble a controllable train with a supported cargo inventory and inspect it from both sides. Tick this after confirming that the inventory and intended control position are accessible."
+  ],
+  "task.1F81A0CC42F9B70F.title": "Do the activity, then tick to confirm",
+  "quest.1FA420AA3093FE3F.title": "An Empty Train Is a Good Teacher",
+  "quest.1FA420AA3093FE3F.quest_subtitle": "Manual build or learning milestone",
+  "quest.1FA420AA3093FE3F.quest_desc": [
+    "Leave valuable freight at the platform for the first trip. Travel slowly enough to notice obstructions and awkward station approaches before you make this a routine service.",
+    "Manual checklist: drive from the first station to the second and return using a route and control arrangement that supports both journeys. Tick this after stopping successfully at both ends and fixing any clearance problem you found."
+  ],
+  "task.2F52FBD4855E33F3.title": "Do the activity, then tick to confirm",
+  "quest.615B4C79C0733CFE.title": "A Delivery With a Receipt",
+  "quest.615B4C79C0733CFE.quest_subtitle": "Manual build or learning milestone",
+  "quest.615B4C79C0733CFE.quest_desc": [
+    "Use a small recognizable load, such as eight building blocks. Note what leaves the origin and what arrives so you can distinguish a completed delivery from cargo still sitting aboard.",
+    "Manual checklist: load the train, carry the batch to the other station and place the entire batch in its destination storage. Tick this after comparing departure and arrival counts. Hand loading is valid here; automation comes later if it is useful."
+  ],
+  "task.3594095F3371FBAA.title": "Do the activity, then tick to confirm",
+  "quest.677F78FF00C0A165.title": "Make Tomorrow's Trip Predictable",
+  "quest.677F78FF00C0A165.quest_subtitle": "Manual build or learning milestone",
+  "quest.677F78FF00C0A165.quest_desc": [
+    "A routine service needs an understandable departure rule. Keep it manually driven if you prefer, or consult the installed schedule guidance and test the waiting conditions you actually intend to use.",
+    "Manual checklist: write the station order and loading rule at the origin, then complete another delivery following that routine. Tick this after the receiver can identify where the next load will arrive. An automatic schedule is optional."
+  ],
+  "task.53DD7E442ED4E672.title": "Do the activity, then tick to confirm",
+  "quest.2BBD928707F96F0F.title": "Optional Study: A Protected Section",
+  "quest.2BBD928707F96F0F.quest_subtitle": "Manual build or learning milestone",
+  "quest.2BBD928707F96F0F.quest_desc": [
+    "Shared track deserves a signaling experiment before it carries regular traffic. Use current Ponder lessons to understand the installed signal behavior rather than copying a junction you cannot explain.",
+    "Manual checklist: build a short test section with signals and demonstrate its occupied and clear states. Tick this after explaining where a second train would wait. Keep experiments off the delivery line until you trust them; this study is not required for handover."
+  ],
+  "task.0496A58257F22D1A.title": "Do the activity, then tick to confirm",
+  "quest.6E2A74F216C0156D.title": "Open for Useful Traffic",
+  "quest.6E2A74F216C0156D.quest_subtitle": "Manual build or learning milestone",
+  "quest.6E2A74F216C0156D.quest_desc": [
+    "Finish the small details that turn a test railway into infrastructure: light the working areas, label outgoing and incoming storage, and keep the unloading space separate from the walking route.",
+    "Manual checklist: make those improvements and complete a final useful delivery without improvising the loading location or blocking access. Tick this after putting the delivered goods to use. No hidden railway-size or train detector is involved."
+  ],
+  "quest.7EE0C99436D4FF55.title": "Optional Equipment: A Station Block",
+  "quest.7EE0C99436D4FF55.quest_subtitle": "Inventory milestone — items are not consumed",
+  "quest.7EE0C99436D4FF55.quest_desc": [
+    "Check how a station selects and names its stopping location. Put the station where a driver and cargo handler can safely reach it.",
+    "Inventory objective: have one of this item in your inventory after this quest becomes available. It is not consumed. This proves possession only; use the associated manual study to check a working installation."
+  ],
+  "quest.51820FEF3228AC7C.title": "Optional Equipment: The Driving Position",
+  "quest.51820FEF3228AC7C.quest_subtitle": "Inventory milestone — items are not consumed",
+  "quest.51820FEF3228AC7C.quest_desc": [
+    "Inspect the controls needed by a Create train. Leave space around the intended driving position and check how your arrangement supports the return trip.",
+    "Inventory objective: have one of this item in your inventory after this quest becomes available. It is not consumed. This proves possession only; use the associated manual study to check a working installation."
+  ],
+  "quest.5BC7B2048B10AC5F.title": "Optional Equipment: A Cargo Buffer",
+  "quest.5BC7B2048B10AC5F.quest_subtitle": "Inventory milestone — items are not consumed",
+  "quest.5BC7B2048B10AC5F.quest_desc": [
+    "Choose a useful role for a vault before building one. Read the current storage and moving-inventory demonstrations rather than assuming that a block placed near a train belongs to it.",
+    "Inventory objective: have one of this item in your inventory after this quest becomes available. It is not consumed. This proves possession only; use the associated manual study to check a working installation."
+  ],
+  "quest.7D2AEDCDC2A601CC.title": "Optional Equipment: The Timetable",
+  "quest.7D2AEDCDC2A601CC.quest_subtitle": "Inventory milestone — items are not consumed",
+  "quest.7D2AEDCDC2A601CC.quest_desc": [
+    "Use the schedule interface to inspect available conditions. Test one simple route before adding waits that could leave the train parked indefinitely.",
+    "Inventory objective: have one of this item in your inventory after this quest becomes available. It is not consumed. This proves possession only; use the associated manual study to check a working installation."
+  ],
+  "quest.1D19A8B624F320F8.title": "Optional Equipment: A Signal Trial",
+  "quest.1D19A8B624F320F8.quest_subtitle": "Inventory milestone — items are not consumed",
+  "quest.1D19A8B624F320F8.quest_desc": [
+    "Obtain a signal for a separate test section. Learn the difference between placing a signal and designing a safe arrangement for more than one train.",
+    "Inventory objective: have one of this item in your inventory after this quest becomes available. It is not consumed. This proves possession only; use the associated manual study to check a working installation."
+  ],
+  "chapter.774767DDCCA9960C.title": "§6Specialist Addons§r",
+  "chapter.774767DDCCA9960C.chapter_subtitle": [
+    "Optional experiments with the pack's specialist addons."
+  ],
+  "task.0E47C1A453EC5C84.title": "Do the activity, then tick to confirm",
+  "quest.700E28EC615745CB.title": "Choose a Problem, Not a Mod List",
+  "quest.700E28EC615745CB.quest_subtitle": "Manual build or learning milestone",
+  "quest.700E28EC615745CB.quest_desc": [
+    "Pick one real problem in your workshop: power loss, awkward transmission, materials transport, sensing or a building limitation.",
+    "This optional chapter samples the installed addons. You do not have to craft every addon's machines to finish the main aviation route.",
+    "Manual checklist: complete the activity above, then tick this task yourself. This quest does not automatically inspect your build."
+  ],
+  "task.005578705946F0E6.title": "Do the activity, then tick to confirm",
+  "quest.449FC552EFEA1E37.title": "A Cleaner Drive Layout",
+  "quest.449FC552EFEA1E37.quest_subtitle": "Manual build or learning milestone",
+  "quest.449FC552EFEA1E37.quest_desc": [
+    "Explore Create: Connected and Transmission for a tidier power route. Inspect the installed components in JEI and Ponder.",
+    "Replace a short section in a test rig first. Measure whether the alternative actually solves your chosen layout problem.",
+    "Manual checklist: complete the activity above, then tick this task yourself. This quest does not automatically inspect your build."
+  ],
+  "task.2B78EE69B560F2B4.title": "Do the activity, then tick to confirm",
+  "quest.0D289FD1D0339EB4.title": "Information along a Beam",
+  "quest.0D289FD1D0339EB4.quest_subtitle": "Manual build or learning milestone",
+  "quest.0D289FD1D0339EB4.quest_desc": [
+    "Explore Create Optical and choose a small sensing or beam experiment supported by its installed demonstrations.",
+    "Write down what enters the system and what changes at the output. This is a manual experiment, not an automatic sensor detector.",
+    "Manual checklist: complete the activity above, then tick this task yourself. This quest does not automatically inspect your build."
+  ],
+  "quest.0BCC10678DF4843A.title": "A Labelled Delivery",
+  "quest.0BCC10678DF4843A.quest_subtitle": "Inventory milestone — items are not consumed",
+  "quest.0BCC10678DF4843A.quest_desc": [
+    "Obtain a packager and inspect the current package handling demonstrations.",
+    "Start with one origin and one destination. Avoid mixing critical stock into a network until you understand routing."
+  ],
+  "task.05E063A06A93BBE8.title": "Do the activity, then tick to confirm",
+  "quest.67B53B5CFF52D689.title": "Move Packages Further",
+  "quest.67B53B5CFF52D689.quest_subtitle": "Manual build or learning milestone",
+  "quest.67B53B5CFF52D689.quest_desc": [
+    "Investigate Mobile Packages, More: Package Couriers and the pack's transport options for a small delivery route.",
+    "Use the recipe view to choose components in your installed version. Deliver a cheap test package before sending valuable stock.",
+    "Manual checklist: complete the activity above, then tick this task yourself. This quest does not automatically inspect your build."
+  ],
+  "task.2612DC2081CE6AEB.title": "Do the activity, then tick to confirm",
+  "quest.70C865B17E29786D.title": "A Material with a Job",
+  "quest.70C865B17E29786D.quest_subtitle": "Manual build or learning milestone",
+  "quest.70C865B17E29786D.quest_desc": [
+    "Browse Rubberworks, Metalwork and other material addons. Select a material that helps an actual project.",
+    "Trace its production recipe back to renewable or obtainable inputs. Do not build a huge plant just to fill a quest icon.",
+    "Manual checklist: complete the activity above, then tick this task yourself. This quest does not automatically inspect your build."
+  ],
+  "task.1953ED4C5E4C00D1.title": "Do the activity, then tick to confirm",
+  "quest.0D087A29B9593524.title": "An Enchanting Workshop",
+  "quest.0D087A29B9593524.quest_subtitle": "Manual build or learning milestone",
+  "quest.0D087A29B9593524.quest_desc": [
+    "Inspect Enchantment Industry and the installed enchanting helpers. Choose one improvement you understand.",
+    "Keep a spare tool and test the operation before processing your best equipment. Modded experience systems are not all interchangeable.",
+    "Manual checklist: complete the activity above, then tick this task yourself. This quest does not automatically inspect your build."
+  ],
+  "task.51390559CDDA9A99.title": "Do the activity, then tick to confirm",
+  "quest.4ABC5AF6AA0D2C48.title": "Another Way across the Factory",
+  "quest.4ABC5AF6AA0D2C48.quest_subtitle": "Manual build or learning milestone",
+  "quest.4ABC5AF6AA0D2C48.quest_desc": [
+    "Explore Hypertubes, Springs, escalators, lifts or vehicles available in your installation.",
+    "Build a short safe route with a clear exit. Avoid launching players into machinery or someone else's claim.",
+    "Manual checklist: complete the activity above, then tick this task yourself. This quest does not automatically inspect your build."
+  ],
+  "task.338C887C8FCAE14E.title": "Do the activity, then tick to confirm",
+  "quest.5B5A1BF3DA1104F8.title": "Power beyond the Familiar",
+  "quest.5B5A1BF3DA1104F8.quest_subtitle": "Manual build or learning milestone",
+  "quest.5B5A1BF3DA1104F8.quest_desc": [
+    "Inspect Power Grid, Electro Energetics or another advanced power addon in JEI. Identify its energy type and how it connects, if at all, to the rest of your factory.",
+    "This is research, not a claim that every power system has a direct adapter. Follow the documentation for the component you choose.",
+    "Manual checklist: complete the activity above, then tick this task yourself. This quest does not automatically inspect your build."
+  ],
+  "task.06FA793846D92C9B.title": "Do the activity, then tick to confirm",
+  "quest.4CC22395BAA70771.title": "Trade Something Useful",
+  "quest.4CC22395BAA70771.quest_subtitle": "Manual build or learning milestone",
+  "quest.4CC22395BAA70771.quest_desc": [
+    "Explore Trading Floor, Trading Post, Tradeworks or Stock Market and agree on a small useful trade with another player. Solo players may set up a demonstration stall.",
+    "Keep the terms clear and follow the server's economy rules. No money, item transfer or public listing is performed by ticking this quest.",
+    "Manual checklist: complete the activity above, then tick this task yourself. This quest does not automatically inspect your build."
+  ],
+  "task.653C0ED577D326FA.title": "Do the activity, then tick to confirm",
+  "quest.4CC367D34393D7DB.title": "Explain Your Experiment",
+  "quest.4CC367D34393D7DB.quest_subtitle": "Manual build or learning milestone",
+  "quest.4CC367D34393D7DB.quest_desc": [
+    "Document the problem you chose, the addon you tested and what you would change.",
+    "A useful experiment can fail. Tick this when you have an honest result and a next step, not only when the build looks impressive.",
+    "Manual checklist: complete the activity above, then tick this task yourself. This quest does not automatically inspect your build."
+  ],
+  "task.667601ACF3021036.title": "Do the activity, then tick to confirm",
+  "quest.7E1F2E6287757555.title": "A Tool You Will Use Again",
+  "quest.7E1F2E6287757555.quest_subtitle": "Manual build or learning milestone",
+  "quest.7E1F2E6287757555.quest_desc": [
+    "Integrate one successful experiment into a working project or keep a clearly labelled test rig for later.",
+    "You have explored a branch without turning the quest book into a compulsory shopping list. Return to your main engineering goal whenever you are ready.",
+    "Manual checklist: complete the activity above, then tick this task yourself. This quest does not automatically inspect your build."
+  ],
+  "quest.5404070D6166547E.title": "Optional Equipment: A Remote Signal",
+  "quest.5404070D6166547E.quest_subtitle": "Inventory milestone — items are not consumed",
+  "quest.5404070D6166547E.quest_desc": [
+    "Inspect how Redstone Links choose a frequency and communicate. Agree on shared frequencies with other players rather than assuming a private channel.",
+    "Inventory objective: have one of this item in your inventory after this quest becomes available. It is not consumed. This proves possession only; use the associated manual study to check a working installation."
+  ],
+  "quest.302546D05570421E.title": "Optional Equipment: A Readable Status",
+  "quest.302546D05570421E.quest_subtitle": "Inventory milestone — items are not consumed",
+  "quest.302546D05570421E.quest_desc": [
+    "Investigate a display-link pairing documented by the installed version. Decide what a reader needs to know before adding a wall of unexplained numbers.",
+    "Inventory objective: have one of this item in your inventory after this quest becomes available. It is not consumed. This proves possession only; use the associated manual study to check a working installation."
+  ],
+  "quest.6D9A65FB91CA352C.title": "Optional Equipment: Wire Workshop",
+  "quest.6D9A65FB91CA352C.quest_subtitle": "Inventory milestone — items are not consumed",
+  "quest.6D9A65FB91CA352C.quest_desc": [
+    "Inspect the rolling mill recipes to find a material your electrical project needs. Confirm the actual installed recipe rather than substituting a pressing operation by memory.",
+    "Inventory objective: have one of this item in your inventory after this quest becomes available. It is not consumed. This proves possession only; use the associated manual study to check a working installation."
+  ],
+  "chapter.3B25BF2871AAEE80.title": "§bThe Motion Test Yard§r",
+  "chapter.3B25BF2871AAEE80.chapter_subtitle": [
+    "Learn one moving body at a time before putting a workshop in the sky."
+  ],
+  "task.1690231D21184E1B.title": "Do the activity, then tick to confirm",
+  "quest.05D21196D0C54226.title": "Room to Make a Small Mistake",
+  "quest.05D21196D0C54226.quest_subtitle": "Manual build or learning milestone",
+  "quest.05D21196D0C54226.quest_desc": [
+    "Set aside an open ground-level test yard away from your storage and main power line. A tiny moving prototype is easier to inspect and recover than a decorated vehicle.",
+    "Manual checklist: mark a clear test boundary, add a parts chest outside it and leave a safe approach on foot. Tick this after checking the space above and around the future prototype."
+  ],
+  "task.3B1DDEF064A55A4A.title": "Do the activity, then tick to confirm",
+  "quest.28466D1DE575DC49.title": "Find This Version's Assembly Method",
+  "quest.28466D1DE575DC49.quest_subtitle": "Manual build or learning milestone",
+  "quest.28466D1DE575DC49.quest_desc": [
+    "Open the installed JEI entry for the Simulated physics assembler and any available Ponder lessons or in-game documentation. Identify the documented way to assemble, control and recover a small test body before attempting it.",
+    "Manual checklist: obtain the assembly equipment that those installed instructions require and place it in the test yard. Tick this after locating the recovery instructions too; do not substitute remembered keybinds from another version."
+  ],
+  "task.02C44B61B6E96E93.title": "Do the activity, then tick to confirm",
+  "quest.78B58D029B2B77C5.title": "A Body You Can See Around",
+  "quest.78B58D029B2B77C5.quest_subtitle": "Manual build or learning milestone",
+  "quest.78B58D029B2B77C5.quest_desc": [
+    "Start with a compact undecorated frame using the joining method supported by the installed assembly instructions. Keep neighboring storage, floors and power lines outside its intended assembly boundary.",
+    "Manual checklist: assemble the small test body and inspect which blocks became part of it. Tick this after confirming that no surrounding workshop blocks were unintentionally included. If the result is wrong, recover it before adding more parts."
+  ],
+  "task.1406841C7BE73474.title": "Do the activity, then tick to confirm",
+  "quest.2EA46BB7D4284388.title": "Practice the Way Back",
+  "quest.2EA46BB7D4284388.quest_subtitle": "Manual build or learning milestone",
+  "quest.2EA46BB7D4284388.quest_desc": [
+    "Assembly is only half the experiment. Learn how this installed setup returns to a state where you can safely edit it; do that while the prototype is still simple and close to the ground.",
+    "Manual checklist: use the documented recovery or disassembly method, make one small frame edit and assemble the prototype again. Tick this after the edit survives the cycle and you can repeat the recovery without guessing."
+  ],
+  "task.0046EDEA5C322C1D.title": "Do the activity, then tick to confirm",
+  "quest.529CA87AA47BECE3.title": "One Input, One Response",
+  "quest.529CA87AA47BECE3.quest_subtitle": "Manual build or learning milestone",
+  "quest.529CA87AA47BECE3.quest_desc": [
+    "Choose one control supported by your prototype's installed documentation. A throttle lever or steering wheel is a candidate to investigate, not proof that it will control every type of body without configuration.",
+    "Manual checklist: fit and configure one documented control path, then demonstrate its intended response in the yard. Tick this after identifying both its neutral state and how to stop the response. Add no second control until the first makes sense."
+  ],
+  "task.0F01CC951CAF0654.title": "Do the activity, then tick to confirm",
+  "quest.289B1D942A13E548.title": "Change One Thing",
+  "quest.289B1D942A13E548.quest_subtitle": "Manual build or learning milestone",
+  "quest.289B1D942A13E548.quest_desc": [
+    "Give the prototype a repeatable, low-energy motion test supported by its design. Mark its starting position and watch what happens before changing several controls or structural parts at once.",
+    "Manual checklist: run the same test twice, change one setting or part and run it again. Record the visible difference, even if the useful conclusion is that the change did not help, then tick this."
+  ],
+  "task.46B38E39F76751F3.title": "Do the activity, then tick to confirm",
+  "quest.577E8FE9FDB84CD5.title": "Optional Study: An Instrument You Trust",
+  "quest.577E8FE9FDB84CD5.quest_subtitle": "Manual build or learning milestone",
+  "quest.577E8FE9FDB84CD5.quest_desc": [
+    "Investigate one installed sensor, such as the velocity or altitude sensor. Read its current documentation to determine its reference and output before treating any displayed value as a flight limit.",
+    "Manual checklist: fit one documented sensor setup and compare its response between two deliberately different test states. Tick this after writing what the output means and one limitation. This instrument study is not required to finish the basic test yard."
+  ],
+  "task.1C4B2CA0A4F17E24.title": "Do the activity, then tick to confirm",
+  "quest.17E0CD461733998C.title": "Optional Study: Meet Without Guesswork",
+  "quest.17E0CD461733998C.quest_subtitle": "Manual build or learning milestone",
+  "quest.17E0CD461733998C.quest_desc": [
+    "Read the installed docking connector guidance before designing a vehicle around it. Leave cargo transfer out of the first test unless the documentation explicitly supports the setup you are building.",
+    "Manual checklist: construct a small documented docking trial and demonstrate connection followed by a controlled release. Tick this after recording the alignment that worked. This optional trial does not certify automatic cargo, fluid or power transfer."
+  ],
+  "task.5C26EFD234A3112F.title": "Do the activity, then tick to confirm",
+  "quest.26014FC637C7D1BB.title": "A Prototype With Instructions",
+  "quest.26014FC637C7D1BB.quest_subtitle": "Manual build or learning milestone",
+  "quest.26014FC637C7D1BB.quest_desc": [
+    "Keep the successful small design as a training rig instead of immediately enlarging it. Write a short local operating note covering assembly, the tested input, the stop action and recovery.",
+    "Manual checklist: follow that note through one complete assembly, response, stop and recovery cycle. Tick this only after the cycle succeeds. The quest records your own test, not automatic physics-body detection."
+  ],
+  "quest.7FEA4CE5454677D8.title": "Optional Equipment: Assembly Bench",
+  "quest.7FEA4CE5454677D8.quest_subtitle": "Inventory milestone — items are not consumed",
+  "quest.7FEA4CE5454677D8.quest_desc": [
+    "Inspect the physics assembler in this installed version. Identify the documented assembly boundary and recovery interaction before placing valuable neighbouring blocks.",
+    "Inventory objective: have one of this item in your inventory after this quest becomes available. It is not consumed. This proves possession only; use the associated manual study to check a working installation."
+  ],
+  "quest.0C5D7AC7F996087E.title": "Optional Equipment: A Throttle Input",
+  "quest.0C5D7AC7F996087E.quest_subtitle": "Inventory milestone — items are not consumed",
+  "quest.0C5D7AC7F996087E.quest_desc": [
+    "Inspect the throttle lever and its documented signal or control behavior. It is a candidate input, not a universal flight controller for every vehicle.",
+    "Inventory objective: have one of this item in your inventory after this quest becomes available. It is not consumed. This proves possession only; use the associated manual study to check a working installation."
+  ],
+  "quest.16E7AFECF570F543.title": "Optional Equipment: A Steering Input",
+  "quest.16E7AFECF570F543.quest_subtitle": "Inventory milestone — items are not consumed",
+  "quest.16E7AFECF570F543.quest_desc": [
+    "Read how the installed steering wheel is linked to a compatible mechanism. Keep this experiment to a single input so its effect is understandable.",
+    "Inventory objective: have one of this item in your inventory after this quest becomes available. It is not consumed. This proves possession only; use the associated manual study to check a working installation."
+  ],
+  "quest.1BD8C8A4C1C90B77.title": "Optional Equipment: Your Design Notes",
+  "quest.1BD8C8A4C1C90B77.quest_subtitle": "Inventory milestone — items are not consumed",
+  "quest.1BD8C8A4C1C90B77.quest_desc": [
+    "Inspect the installed contraption diagram workflow. Begin with a small disposable design and keep normal world backups; a diagram is not proof of world recovery.",
+    "Inventory objective: have one of this item in your inventory after this quest becomes available. It is not consumed. This proves possession only; use the associated manual study to check a working installation."
+  ],
+  "quest.59E7FD20DCCFD45E.title": "Optional Instrument: Motion Reading",
+  "quest.59E7FD20DCCFD45E.quest_subtitle": "Inventory milestone — items are not consumed",
+  "quest.59E7FD20DCCFD45E.quest_desc": [
+    "Investigate what frame and output the velocity sensor uses. The later sensor study asks you to test readings in deliberately different states.",
+    "Inventory objective: have one of this item in your inventory after this quest becomes available. It is not consumed. This proves possession only; use the associated manual study to check a working installation."
+  ],
+  "quest.46D83FAF7DE9DC66.title": "Optional Instrument: Height Reading",
+  "quest.46D83FAF7DE9DC66.quest_subtitle": "Inventory milestone — items are not consumed",
+  "quest.46D83FAF7DE9DC66.quest_desc": [
+    "Inspect the altitude sensor reference and output format. A height measurement alone does not tell you whether there is clear ground beneath an aircraft.",
+    "Inventory objective: have one of this item in your inventory after this quest becomes available. It is not consumed. This proves possession only; use the associated manual study to check a working installation."
+  ],
+  "quest.13C0AB48B5743CBF.title": "Optional Equipment: Docking Trial",
+  "quest.13C0AB48B5743CBF.quest_subtitle": "Inventory milestone — items are not consumed",
+  "quest.13C0AB48B5743CBF.quest_desc": [
+    "Read the installed connector guidance before planning a docking face. Connection is not automatically a promise of inventory, fluid or electrical transfer.",
+    "Inventory objective: have one of this item in your inventory after this quest becomes available. It is not consumed. This proves possession only; use the associated manual study to check a working installation."
+  ],
+  "chapter.30AAC549046D72EC.title": "§bFlight School§r",
+  "chapter.30AAC549046D72EC.chapter_subtitle": [
+    "A modest aircraft, a clear field and a flight you can repeat."
+  ],
+  "task.778A08A87A91B19B.title": "Do the activity, then tick to confirm",
+  "quest.194A768FFF584DB1.title": "Give Yourself Somewhere to Return",
+  "quest.194A768FFF584DB1.quest_subtitle": "Manual build or learning milestone",
+  "quest.194A768FFF584DB1.quest_desc": [
+    "Choose a nearby open flying area and a recognizable home marker. Avoid beginning above your valuable machinery or in a cramped space that forces a difficult first approach.",
+    "Manual checklist: clear a launch and recovery area, mark its boundaries and walk a clear approach. Tick this after checking for overhangs and nearby obstacles. You do not need an advanced hangar or a completed refinery."
+  ],
+  "quest.78FE7FB9043799E4.title": "A Pilot Still Needs Lunch",
+  "quest.78FE7FB9043799E4.quest_subtitle": "Inventory milestone — items are not consumed",
+  "quest.78FE7FB9043799E4.quest_desc": [
+    "Take a little food rather than packing your whole workshop. Keep important tools and excess materials at home for the first local flight.",
+    "Gather four bread for a simple starter ration. Before departure, also choose a way to recognize the home field from the air; food is not a substitute for a return plan."
+  ],
+  "task.46CE54C1D641F7F1.title": "Do the activity, then tick to confirm",
+  "quest.09F1E0F64474E5D3.title": "Choose Your First Trainer",
+  "quest.09F1E0F64474E5D3.quest_subtitle": "Manual build or learning milestone",
+  "quest.09F1E0F64474E5D3.quest_desc": [
+    "Use installed JEI recipes and available in-game documentation to choose an attainable Immersive Aircraft trainer, or a small Aeronautics craft if you already understand its assembly. The cheapest suitable choice is enough; collecting every aircraft is not the lesson.",
+    "Manual checklist: obtain or assemble one flyable trainer and place it at the field using its documented method. Tick this after identifying its supported operating supplies and controls. Advanced propellers, gyroscopes and optional upgrades are not prerequisites."
+  ],
+  "task.63A7E7BF449B8670.title": "Do the activity, then tick to confirm",
+  "quest.4E6E721D5B6DDC4F.title": "Read the Controls on the Ground",
+  "quest.4E6E721D5B6DDC4F.quest_subtitle": "Manual build or learning milestone",
+  "quest.4E6E721D5B6DDC4F.quest_desc": [
+    "Find the controls for your chosen aircraft in this installation's settings and documentation. Identify steering, power adjustment, stopping or landing, and how to leave the vehicle safely; do not assume that two aircraft families use the same bindings.",
+    "Manual checklist: inspect the trainer, add only its documented required supplies and write a short preflight card beside the field. Tick this after pointing out the intended takeoff direction and an alternate clear recovery spot."
+  ],
+  "task.2FAE19A5D8F7BFEF.title": "Do the activity, then tick to confirm",
+  "quest.07F7F1B5934F4440.title": "Learn the Response Before the Climb",
+  "quest.07F7F1B5934F4440.quest_subtitle": "Manual build or learning milestone",
+  "quest.07F7F1B5934F4440.quest_desc": [
+    "Use the smallest safe familiarization exercise appropriate to the aircraft: a brief ground movement if it supports one, or the documented stationary control checks. A trainer that cannot taxi does not need to be forced into a taxi lesson.",
+    "Manual checklist: perform that exercise, return the controls to their safe state and confirm the field is clear. Tick this after you can identify the action that begins movement and the procedure that ends the exercise."
+  ],
+  "task.5669DCE82DFED308.title": "Do the activity, then tick to confirm",
+  "quest.76B3B877171CAD81.title": "Stay Within Sight of Home",
+  "quest.76B3B877171CAD81.quest_subtitle": "Manual build or learning milestone",
+  "quest.76B3B877171CAD81.quest_desc": [
+    "Make a short local flight with no cargo obligation. Keep the field recognizable, make gentle changes appropriate to your trainer and return before unfamiliar terrain turns the lesson into a rescue expedition.",
+    "Manual checklist: take off, travel a short circuit and land at the marked field using the trainer's documented procedure. Tick this only after coming to rest safely; possessing an aircraft does not complete the flight."
+  ],
+  "task.39F6F82AFCA45762.title": "Do the activity, then tick to confirm",
+  "quest.165A60C89851DB01.title": "Optional Lab: Build Your Own Lift",
+  "quest.165A60C89851DB01.quest_subtitle": "Manual build or learning milestone",
+  "quest.165A60C89851DB01.quest_desc": [
+    "If your trainer came from Immersive Aircraft, this is a separate introduction to Aeronautics rather than a required replacement. Investigate the installed assembly and lift guidance, including which propulsion and control parts your small design actually needs.",
+    "Manual checklist: build a compact Aeronautics prototype, verify its controls in a clear area and complete a brief controlled lift and recovery test. Tick this after recovery. If you already use an Aeronautics trainer, test one revised small design; advanced components remain optional."
+  ],
+  "task.26E52527E7E6B3AD.title": "Do the activity, then tick to confirm",
+  "quest.34CDB70160630182.title": "Optional Lab: Improve One Trait",
+  "quest.34CDB70160630182.quest_subtitle": "Manual build or learning milestone",
+  "quest.34CDB70160630182.quest_desc": [
+    "Choose one documented upgrade or advanced component compatible with your aircraft. Decide what you want to improve before crafting it, and avoid changing the airframe, propulsion and control system in the same experiment.",
+    "Manual checklist: complete a baseline local flight, install the chosen compatible change and repeat the route. Tick this after noting one observed benefit or drawback. No particular upgrade family is required, and this experiment does not gate graduation."
+  ],
+  "task.6BCDB9CD508F0351.title": "Do the activity, then tick to confirm",
+  "quest.33F1841162439155.title": "The Second Landing Is the Qualification",
+  "quest.33F1841162439155.quest_subtitle": "Manual build or learning milestone",
+  "quest.33F1841162439155.quest_desc": [
+    "Repeatability matters more than distance. Review the first circuit, fix an unclear field marker or weak part of your preflight routine, and use the same modest trainer again.",
+    "Manual checklist: follow your preflight card, fly another short circuit and land safely at home. Tick this after parking the aircraft and recording one lesson for the next pilot. This is a manual flight milestone with no automatic landing detector."
+  ],
+  "quest.5A5DA8D6CE85A51C.title": "Optional Equipment: First Propeller",
+  "quest.5A5DA8D6CE85A51C.quest_subtitle": "Inventory milestone — items are not consumed",
+  "quest.5A5DA8D6CE85A51C.quest_desc": [
+    "Inspect the wooden propeller in JEI and any available Ponder demonstration. Plan it as part of a supported Aeronautics propulsion system, not a free-standing source of guaranteed lift.",
+    "Inventory objective: have one of this item in your inventory after this quest becomes available. It is not consumed. This proves possession only; use the associated manual study to check a working installation."
+  ],
+  "quest.222BDB6D79878CB9.title": "Optional Equipment: Propeller Mount",
+  "quest.222BDB6D79878CB9.quest_subtitle": "Inventory milestone — items are not consumed",
+  "quest.222BDB6D79878CB9.quest_desc": [
+    "Inspect the propeller bearing and its current assembly requirements. Check the intended axis, clearances and compatible propeller parts before your ground test.",
+    "Inventory objective: have one of this item in your inventory after this quest becomes available. It is not consumed. This proves possession only; use the associated manual study to check a working installation."
+  ],
+  "quest.4E216418C4D17D84.title": "Optional Equipment: Envelope Study",
+  "quest.4E216418C4D17D84.quest_subtitle": "Inventory milestone — items are not consumed",
+  "quest.4E216418C4D17D84.quest_desc": [
+    "Investigate envelope-based aircraft building using the installed guidance. Avoid assuming a specific lift ratio or size requirement from another pack version.",
+    "Inventory objective: have one of this item in your inventory after this quest becomes available. It is not consumed. This proves possession only; use the associated manual study to check a working installation."
+  ],
+  "quest.631B213C50C0B92E.title": "Optional Equipment: Adjustable Heat",
+  "quest.631B213C50C0B92E.quest_subtitle": "Inventory milestone — items are not consumed",
+  "quest.631B213C50C0B92E.quest_desc": [
+    "Inspect the adjustable burner and supported operating supplies. Obtain the component first, then test its documented behaviour on a small design away from your workshop.",
+    "Inventory objective: have one of this item in your inventory after this quest becomes available. It is not consumed. This proves possession only; use the associated manual study to check a working installation."
+  ],
+  "quest.5BA83F5B7819ECFF.title": "Optional Equipment: Pilot Information",
+  "quest.5BA83F5B7819ECFF.quest_subtitle": "Inventory milestone — items are not consumed",
+  "quest.5BA83F5B7819ECFF.quest_desc": [
+    "Compare the information offered by aviator's goggles with your actual aircraft instruments. Equipment is only useful when you understand what its indicators mean.",
+    "Inventory objective: have one of this item in your inventory after this quest becomes available. It is not consumed. This proves possession only; use the associated manual study to check a working installation."
+  ],
+  "quest.3C2717CF53559320.title": "Optional Aircraft: A Compact Trainer",
+  "quest.3C2717CF53559320.quest_subtitle": "Inventory milestone — items are not consumed",
+  "quest.3C2717CF53559320.quest_desc": [
+    "Inspect the gyrodyne recipe and controls as one trainer option. This side branch does not require replacing a trainer you already know how to operate.",
+    "Inventory objective: have one of this item in your inventory after this quest becomes available. It is not consumed. This proves possession only; use the associated manual study to check a working installation."
+  ],
+  "chapter.53178DE1F2C8C234.title": "§bBeyond the Horizon§r",
+  "chapter.53178DE1F2C8C234.chapter_subtitle": [
+    "Turn your tested machines into a small, useful network."
+  ],
+  "task.207B9DE36972639B.title": "Do the activity, then tick to confirm",
+  "quest.67203CB7E3CDEC97.title": "Give the Expedition a Job",
+  "quest.67203CB7E3CDEC97.quest_subtitle": "Manual build or learning milestone",
+  "quest.67203CB7E3CDEC97.quest_desc": [
+    "Pick a reachable destination with a reason to visit: a building site, a resource outpost or a scenic stop that needs supplies. Begin with one purpose instead of promising a continent-spanning network.",
+    "Manual checklist: build a mission board at home showing the destination, the useful cargo and a return plan. Tick this after choosing a route suited to equipment you have already tested."
+  ],
+  "task.6D397566C2C38170.title": "Do the activity, then tick to confirm",
+  "quest.5FE26356D7957FB2.title": "Scout Without the Precious Cargo",
+  "quest.5FE26356D7957FB2.quest_subtitle": "Manual build or learning milestone",
+  "quest.5FE26356D7957FB2.quest_desc": [
+    "Visit the proposed destination with a light load. Inspect the actual arrival area rather than deciding from a distant view that any flat patch will make a station or landing field.",
+    "Manual checklist: reach the destination, mark a suitable arrival site and return home. Tick this after noting one route hazard and how you will avoid it on a loaded trip. Choose another destination if this one exceeds your current range or confidence."
+  ],
+  "task.6827FF80C5C5017A.title": "Do the activity, then tick to confirm",
+  "quest.2782E551236E0EE9.title": "A Small Place to Arrive",
+  "quest.2782E551236E0EE9.quest_subtitle": "Manual build or learning milestone",
+  "quest.2782E551236E0EE9.quest_desc": [
+    "The first outpost needs clarity more than size. Prepare an arrival space appropriate to your chosen transport, a marked storage point and a sheltered place to sort supplies.",
+    "Manual checklist: build those three features at the destination and check that unloading does not obstruct the arrival path. Tick this after placing a visible destination name where an arriving player can read it."
+  ],
+  "task.57B204FCEE459871.title": "Do the activity, then tick to confirm",
+  "quest.477CD3FDB0DF676E.title": "Carry What the Site Will Use",
+  "quest.477CD3FDB0DF676E.quest_subtitle": "Manual build or learning milestone",
+  "quest.477CD3FDB0DF676E.quest_desc": [
+    "Choose a small cargo batch that finishes a real task at the outpost. A handful of lighting or building supplies is better training freight than a full inventory of materials with no planned use.",
+    "Manual checklist: transport the selected batch from home to the outpost by your tested aircraft or train and use it on the planned task. Tick this after recording what was delivered; manual loading and unloading are acceptable."
+  ],
+  "task.3E6A3D2B141A7AD1.title": "Do the activity, then tick to confirm",
+  "quest.0A0ECCA22B546A00.title": "Bring Back a Reason for the Route",
+  "quest.0A0ECCA22B546A00.quest_subtitle": "Manual build or learning milestone",
+  "quest.0A0ECCA22B546A00.quest_desc": [
+    "A return load can be a small resource sample, spare parts from the build or an item requested by your home workshop. Keep its size appropriate to the transport rather than expanding the vehicle for one quest.",
+    "Manual checklist: choose a useful return batch, carry it home and put it in its intended storage or work area. Tick this after updating the mission board with the completed outward and return jobs."
+  ],
+  "task.49882038A433F12D.title": "Do the activity, then tick to confirm",
+  "quest.726AFEEAE1A519DC.title": "Fix the Weakest Stop",
+  "quest.726AFEEAE1A519DC.quest_subtitle": "Manual build or learning milestone",
+  "quest.726AFEEAE1A519DC.quest_desc": [
+    "Review both ends of the route. Perhaps the difficult part was poor lighting, an awkward cargo path or uncertainty about operating supplies; solve the observed problem rather than building an elaborate terminal by default.",
+    "Manual checklist: make one concrete service improvement at the weaker stop and test it during an arrival or departure. Tick this after describing how the change reduced a problem you actually encountered."
+  ],
+  "task.700BF57604F5AA50.title": "Do the activity, then tick to confirm",
+  "quest.0F218C26ADC52B87.title": "Optional Build: The Mode-Change Yard",
+  "quest.0F218C26ADC52B87.quest_subtitle": "Manual build or learning milestone",
+  "quest.0F218C26ADC52B87.quest_desc": [
+    "Where rail and air meet, give cargo a clear place to wait. Start with labeled storage and manual transfer; that makes the route useful without depending on unverified cross-mod docking or inventory behavior.",
+    "Manual checklist: build a shared transfer area, deliver one small batch by train and forward it by aircraft, or reverse that order. Tick this after the batch reaches its receiver. This optional two-mode project does not gate the main expedition milestone."
+  ],
+  "task.5382526DD950D358.title": "Do the activity, then tick to confirm",
+  "quest.1D89BF5DD95AC95B.title": "An Inconvenience, Not a Stranding",
+  "quest.1D89BF5DD95AC95B.quest_subtitle": "Manual build or learning milestone",
+  "quest.1D89BF5DD95AC95B.quest_desc": [
+    "Plan for an interrupted journey without deliberately crashing or destroying equipment. Identify a safe waiting place, a way back on foot where practical and the supplies needed for your documented restart or recovery method.",
+    "Manual checklist: prepare a small recovery cache at a useful stop, then rehearse a safe pause and restart of the journey. Tick this after checking that your plan does not depend on supplies left aboard an inaccessible vehicle."
+  ],
+  "task.2DBEC0A8CA75C76A.title": "Do the activity, then tick to confirm",
+  "quest.61A598F3897BB8F5.title": "A Network Another Player Could Use",
+  "quest.61A598F3897BB8F5.quest_subtitle": "Manual build or learning milestone",
+  "quest.61A598F3897BB8F5.quest_desc": [
+    "Finish with a route card that names both stops, the cargo purpose, the transport used and the recovery arrangement. Leave enough information that your future self can resume the service without rediscovering its quirks.",
+    "Manual checklist: complete another useful round trip using the improved stops and the route card, then display the card at home. Tick this after parking and storing the returned cargo. This capstone recognizes your built and tested service manually, not a hidden aircraft, station or structure scan."
+  ],
+  "quest.5C684416148FC712.title": "Optional Cargo: A Portable Kit",
+  "quest.5C684416148FC712.quest_subtitle": "Inventory milestone — items are not consumed",
+  "quest.5C684416148FC712.quest_desc": [
+    "A shulker box can be a compact expedition kit once you have access to one. This late optional task does not gate completing your route or require risking the End for an early flight.",
+    "Inventory objective: have one of this item in your inventory after this quest becomes available. It is not consumed. This proves possession only; use the associated manual study to check a working installation."
+  ],
+  "chapter.45DDDFDF06B434F7.title": "§aFood and Farming§r",
+  "chapter.45DDDFDF06B434F7.chapter_subtitle": [
+    "Keep the crew fed without making dinner a chore."
+  ],
+  "task.2AE3721C7719F72E.title": "Do the activity, then tick to confirm",
+  "quest.47A05DD71B361290.title": "Plant for the Long Term",
+  "quest.47A05DD71B361290.quest_subtitle": "Manual build or learning milestone",
+  "quest.47A05DD71B361290.quest_desc": [
+    "Establish a sustainable food plot and replant what you harvest.",
+    "Start with food you can reliably replace. A pretty kitchen is not much use when the pantry is empty.",
+    "Manual checklist: complete the activity above, then tick this task yourself. This quest does not automatically inspect your build."
+  ],
+  "quest.66D0A3B744E140DD.title": "A Kitchen Workbench",
+  "quest.66D0A3B744E140DD.quest_subtitle": "Inventory milestone — items are not consumed",
+  "quest.66D0A3B744E140DD.quest_desc": [
+    "Obtain a Farmer's Delight cutting board and look up its recipes.",
+    "Check which tool each operation needs. Keep a spare tool available so you do not dismantle your kitchen to find one."
+  ],
+  "quest.55C3CEE2B64C4E11.title": "A Meal Worth Packing",
+  "quest.55C3CEE2B64C4E11.quest_subtitle": "Inventory milestone — items are not consumed",
+  "quest.55C3CEE2B64C4E11.quest_desc": [
+    "Obtain one serving of fried rice, or use the recipe as a small kitchen project.",
+    "This is an inventory milestone. Arrange renewable ingredient sources before trying to make the kitchen fully automatic."
+  ],
+  "quest.0F63DF235971A997.title": "A Mechanical Hand in the Field",
+  "quest.0F63DF235971A997.quest_subtitle": "Inventory milestone — items are not consumed",
+  "quest.0F63DF235971A997.quest_desc": [
+    "Obtain a mechanical harvester and inspect how it operates on a moving Create contraption.",
+    "Protect paths and neighbouring builds. Test a small crop patch before widening the machine."
+  ],
+  "task.74C0239EC98BA083.title": "Do the activity, then tick to confirm",
+  "quest.56FD0443D175C90D.title": "Bring the Harvest Home",
+  "quest.56FD0443D175C90D.quest_subtitle": "Manual build or learning milestone",
+  "quest.56FD0443D175C90D.quest_desc": [
+    "Plan how a moving farm unloads its products into storage using the appropriate interfaces for its cargo.",
+    "Item and fluid transport are different systems. Look up the exact interface needed in JEI; do not assume a fluid interface transfers crop items.",
+    "Manual checklist: complete the activity above, then tick this task yourself. This quest does not automatically inspect your build."
+  ],
+  "task.411B31B1AF3D65EF.title": "Do the activity, then tick to confirm",
+  "quest.057D3F75A57703E1.title": "Pick a Kitchen Speciality",
+  "quest.057D3F75A57703E1.quest_subtitle": "Manual build or learning milestone",
+  "quest.057D3F75A57703E1.quest_desc": [
+    "Browse Farmer's Delight, Create: Food, Slice and Dice, Central Kitchen, and the confectionery or cafe additions installed in your pack.",
+    "Choose one recipe family to supply. Use the current recipe view and test one meal before committing to an automated layout.",
+    "Manual checklist: complete the activity above, then tick this task yourself. This quest does not automatically inspect your build."
+  ],
+  "task.382D0681CD555355.title": "Do the activity, then tick to confirm",
+  "quest.48657D409F67F34C.title": "A Small Food Business",
+  "quest.48657D409F67F34C.quest_subtitle": "Manual build or learning milestone",
+  "quest.48657D409F67F34C.quest_desc": [
+    "Build a renewable production route for a food you chose. Separate raw ingredients, processing and finished meals.",
+    "It can be partly manual. The goal is a usable kitchen, not a machine that consumes every crop on the server.",
+    "Manual checklist: complete the activity above, then tick this task yourself. This quest does not automatically inspect your build."
+  ],
+  "task.4C0E8AD1C1488229.title": "Do the activity, then tick to confirm",
+  "quest.13E99D0288ADF4F8.title": "Provision the Next Expedition",
+  "quest.13E99D0288ADF4F8.quest_subtitle": "Manual build or learning milestone",
+  "quest.13E99D0288ADF4F8.quest_desc": [
+    "Pack a sensible food reserve and show how the next batch will be produced.",
+    "If you play with friends, leave clear labels and agree which supplies are shared. Your factory now supports the people using it.",
+    "Manual checklist: complete the activity above, then tick this task yourself. This quest does not automatically inspect your build."
+  ],
+  "quest.2C1754B5F841E8F2.title": "Optional Pantry: A Packed Sandwich",
+  "quest.2C1754B5F841E8F2.quest_subtitle": "Inventory milestone — items are not consumed",
+  "quest.2C1754B5F841E8F2.quest_desc": [
+    "Use JEI to trace a bacon sandwich back to obtainable ingredients. Producing a useful small lunch batch is enough; there is no stack-sized food grind here.",
+    "Inventory objective: have one of this item in your inventory after this quest becomes available. It is not consumed. This proves possession only; use the associated manual study to check a working installation."
+  ],
+  "quest.42E66EEF403D5B0A.title": "Optional Pantry: A Basket for the Kitchen",
+  "quest.42E66EEF403D5B0A.quest_subtitle": "Inventory milestone — items are not consumed",
+  "quest.42E66EEF403D5B0A.quest_desc": [
+    "Inspect the bamboo basket and decide where it would help your kitchen. Do not assume its interactions are identical to every other storage block.",
+    "Inventory objective: have one of this item in your inventory after this quest becomes available. It is not consumed. This proves possession only; use the associated manual study to check a working installation."
+  ],
+  "quest.4ADAC2F99DE746E2.title": "Optional Equipment: Prepare the Field",
+  "quest.4ADAC2F99DE746E2.quest_subtitle": "Inventory milestone — items are not consumed",
+  "quest.4ADAC2F99DE746E2.quest_desc": [
+    "Inspect the mechanical plough demonstration before adding one to a moving farm. Keep its working area away from paths and decorations you intend to preserve.",
+    "Inventory objective: have one of this item in your inventory after this quest becomes available. It is not consumed. This proves possession only; use the associated manual study to check a working installation."
+  ],
+  "quest.1871D2D5513E55E0.title": "Optional Equipment: Transfer the Harvest",
+  "quest.1871D2D5513E55E0.quest_subtitle": "Inventory milestone — items are not consumed",
+  "quest.1871D2D5513E55E0.quest_desc": [
+    "Inspect the portable storage interface for a moving item-cargo system. This is the item-handling study; a portable fluid interface is not a crop-item transfer substitute.",
+    "Inventory objective: have one of this item in your inventory after this quest becomes available. It is not consumed. This proves possession only; use the associated manual study to check a working installation."
+  ],
+  "chapter.4161EA1D2EF76B9C.title": "§aThe Builder's Yard§r",
+  "chapter.4161EA1D2EF76B9C.chapter_subtitle": [
+    "Make the workshop pleasant to use and easy to maintain."
+  ],
+  "task.7D301A615DC6FAE4.title": "Do the activity, then tick to confirm",
+  "quest.56289580A97CE7C3.title": "A Plan with Room to Grow",
+  "quest.56289580A97CE7C3.quest_subtitle": "Manual build or learning milestone",
+  "quest.56289580A97CE7C3.quest_desc": [
+    "Sketch a workshop layout with a production floor, stores and a route to the future hangar.",
+    "Leave service space behind machines. Building around maintenance is easier than tearing a finished wall apart.",
+    "Manual checklist: complete the activity above, then tick this task yourself. This quest does not automatically inspect your build."
+  ],
+  "task.1999E242C3540215.title": "Do the activity, then tick to confirm",
+  "quest.00EF9F8E7BF59A7E.title": "Choose Your Materials",
+  "quest.00EF9F8E7BF59A7E.quest_subtitle": "Manual build or learning milestone",
+  "quest.00EF9F8E7BF59A7E.quest_desc": [
+    "Browse Copycats+, Design n' Decor, Handcrafted, Supplementaries and Quark for a palette that suits your build.",
+    "Make a small sample wall first. Use JEI for the installed items instead of copying someone else's exact block list.",
+    "Manual checklist: complete the activity above, then tick this task yourself. This quest does not automatically inspect your build."
+  ],
+  "quest.4D86A0D8CC3FF433.title": "Frame the Working Area",
+  "quest.4D86A0D8CC3FF433.quest_subtitle": "Inventory milestone — items are not consumed",
+  "quest.4D86A0D8CC3FF433.quest_desc": [
+    "Obtain metal girders and experiment with a structural frame or gantry for your workshop.",
+    "These are a visual and construction milestone, not proof that a physics build is structurally safe."
+  ],
+  "task.3149E5460EFFBAC6.title": "Do the activity, then tick to confirm",
+  "quest.2A196ED88393027E.title": "Useful Details",
+  "quest.2A196ED88393027E.quest_subtitle": "Manual build or learning milestone",
+  "quest.2A196ED88393027E.quest_desc": [
+    "Add lighting, readable signs, railings or furnishings around the workshop.",
+    "Keep the actual working face of each machine accessible. Decoration should make the factory easier to understand.",
+    "Manual checklist: complete the activity above, then tick this task yourself. This quest does not automatically inspect your build."
+  ],
+  "task.25C0AAAAF9E8FF7B.title": "Do the activity, then tick to confirm",
+  "quest.3782675F5643BEF6.title": "A Place for Every Part",
+  "quest.3782675F5643BEF6.quest_subtitle": "Manual build or learning milestone",
+  "quest.3782675F5643BEF6.quest_desc": [
+    "Organise a dedicated building-material store. Explore Storage Drawers, Sophisticated Backpacks and Create storage as options.",
+    "Use a system you understand and can expand. Do not feed irreplaceable tools into an untested sorting line.",
+    "Manual checklist: complete the activity above, then tick this task yourself. This quest does not automatically inspect your build."
+  ],
+  "task.24F4A29A346781B2.title": "Do the activity, then tick to confirm",
+  "quest.78B9334BA973249C.title": "Reserve the Hangar Floor",
+  "quest.78B9334BA973249C.quest_subtitle": "Manual build or learning milestone",
+  "quest.78B9334BA973249C.quest_desc": [
+    "Build or mark a clear assembly area with a route outside and space around test vehicles.",
+    "Keep machinery, animals and shared possessions out of the first assembly test area.",
+    "Manual checklist: complete the activity above, then tick this task yourself. This quest does not automatically inspect your build."
+  ],
+  "quest.038A6F280A19D118.title": "Keep a Copy of the Idea",
+  "quest.038A6F280A19D118.quest_subtitle": "Inventory milestone — items are not consumed",
+  "quest.038A6F280A19D118.quest_desc": [
+    "Obtain an empty schematic and inspect the installed schematic workflow.",
+    "Save a small, disposable design first. A schematic is a construction aid, not a substitute for backing up your world."
+  ],
+  "task.361D48B895DD1C8A.title": "Do the activity, then tick to confirm",
+  "quest.0AA2AAF6575B242F.title": "A Workshop with Character",
+  "quest.0AA2AAF6575B242F.quest_subtitle": "Manual build or learning milestone",
+  "quest.0AA2AAF6575B242F.quest_desc": [
+    "Give the workshop a name and finish a useful, furnished area connected to its machinery.",
+    "Take a screenshot for your own build log. Nothing is uploaded or shared automatically by this quest.",
+    "Manual checklist: complete the activity above, then tick this task yourself. This quest does not automatically inspect your build."
+  ],
+  "quest.1C3BCE5C107A7E23.title": "Optional Tool: Record a Small Design",
+  "quest.1C3BCE5C107A7E23.quest_subtitle": "Inventory milestone — items are not consumed",
+  "quest.1C3BCE5C107A7E23.quest_desc": [
+    "Inspect the schematic-and-quill selection workflow on a small test build. Read its bounds carefully so neighbouring work is not accidentally included.",
+    "Inventory objective: have one of this item in your inventory after this quest becomes available. It is not consumed. This proves possession only; use the associated manual study to check a working installation."
+  ],
+  "quest.7027D73450BF15BB.title": "Optional Tool: A Construction Helper",
+  "quest.7027D73450BF15BB.quest_subtitle": "Inventory milestone — items are not consumed",
+  "quest.7027D73450BF15BB.quest_desc": [
+    "Inspect the schematicannon supply, materials and placement instructions. Start with a disposable test structure and keep its construction area clear.",
+    "Inventory objective: have one of this item in your inventory after this quest becomes available. It is not consumed. This proves possession only; use the associated manual study to check a working installation."
+  ],
+  "chapter.0D49C74C68B7B0F4.title": "§aThe Explorer's Log§r",
+  "chapter.0D49C74C68B7B0F4.chapter_subtitle": [
+    "Find somewhere worth building a route to."
+  ],
+  "task.2FFE435F94386118.title": "Do the activity, then tick to confirm",
+  "quest.46FD27177E5CC548.title": "Mark Home First",
+  "quest.46FD27177E5CC548.quest_subtitle": "Manual build or learning milestone",
+  "quest.46FD27177E5CC548.quest_desc": [
+    "Open Xaero's maps and mark a waypoint for your workshop. Check the available map controls in your own keybinds.",
+    "You do not need to reveal your location publicly. Decide with friends which destinations and routes you want to share.",
+    "Manual checklist: complete the activity above, then tick this task yourself. This quest does not automatically inspect your build."
+  ],
+  "task.5159E749F5555ECB.title": "Do the activity, then tick to confirm",
+  "quest.5C3E1CBEDE9D177E.title": "Prepare to Come Back",
+  "quest.5C3E1CBEDE9D177E.quest_subtitle": "Manual build or learning milestone",
+  "quest.5C3E1CBEDE9D177E.quest_desc": [
+    "Pack food, light, spare tools and a way to remember your route. Inspect Corpse and backpack settings before relying on recovery.",
+    "A recovery feature is not a guarantee against losing equipment. Test unfamiliar inventory behaviour with cheap items.",
+    "Manual checklist: complete the activity above, then tick this task yourself. This quest does not automatically inspect your build."
+  ],
+  "task.69287610FA80ED1D.title": "Do the activity, then tick to confirm",
+  "quest.7A3A6D49F52492DD.title": "A Place with People",
+  "quest.7A3A6D49F52492DD.quest_subtitle": "Manual build or learning milestone",
+  "quest.7A3A6D49F52492DD.quest_desc": [
+    "Find a village or settlement and observe its layout, villagers and nearby terrain.",
+    "Use the world you actually generated. This manual objective does not require a particular structure mod to win the generation lottery.",
+    "Manual checklist: complete the activity above, then tick this task yourself. This quest does not automatically inspect your build."
+  ],
+  "task.2EAC5F70ABB7569D.title": "Do the activity, then tick to confirm",
+  "quest.342A97666CB914A1.title": "A Place with a Story",
+  "quest.342A97666CB914A1.quest_subtitle": "Manual build or learning milestone",
+  "quest.342A97666CB914A1.quest_desc": [
+    "Explore a structure safely, taking time to inspect entrances, hazards and a route out.",
+    "Integrated Dungeons and Structures and other installed world additions give you reasons to wander; no specific rare structure is required here.",
+    "Manual checklist: complete the activity above, then tick this task yourself. This quest does not automatically inspect your build."
+  ],
+  "task.4F7A79BFF3170D92.title": "Do the activity, then tick to confirm",
+  "quest.341AAEB1FB1AE4DB.title": "A Return Route",
+  "quest.341AAEB1FB1AE4DB.quest_subtitle": "Manual build or learning milestone",
+  "quest.341AAEB1FB1AE4DB.quest_desc": [
+    "Choose a practical return route or investigate Waystones if you want a teleport option.",
+    "Follow the server's travel rules and your installed recipes. This task does not grant a free teleport or a free waystone.",
+    "Manual checklist: complete the activity above, then tick this task yourself. This quest does not automatically inspect your build."
+  ],
+  "task.479A76675CB84B62.title": "Do the activity, then tick to confirm",
+  "quest.7D871CA77AA3EF04.title": "A Future Outpost",
+  "quest.7D871CA77AA3EF04.quest_subtitle": "Manual build or learning milestone",
+  "quest.7D871CA77AA3EF04.quest_desc": [
+    "Survey a location that would benefit from a rail line, farm supply or aircraft delivery.",
+    "Record why the destination matters and what terrain or access problem you will need to solve.",
+    "Manual checklist: complete the activity above, then tick this task yourself. This quest does not automatically inspect your build."
+  ],
+  "task.1BC7D956974608FA.title": "Do the activity, then tick to confirm",
+  "quest.64F43AC2D4EDD517.title": "Look Below the Surface",
+  "quest.64F43AC2D4EDD517.quest_subtitle": "Manual build or learning milestone",
+  "quest.64F43AC2D4EDD517.quest_desc": [
+    "Browse your diving equipment and aquatic addons, then plan a safe underwater trip.",
+    "Test breathing, equipment behaviour and your return route before entering a long cave or an unfamiliar vehicle.",
+    "Manual checklist: complete the activity above, then tick this task yourself. This quest does not automatically inspect your build."
+  ],
+  "task.7B84EDE7EE19C68D.title": "Do the activity, then tick to confirm",
+  "quest.3492D4685B33166C.title": "Bring Back a Reason to Build",
+  "quest.3492D4685B33166C.quest_subtitle": "Manual build or learning milestone",
+  "quest.3492D4685B33166C.quest_desc": [
+    "Return to your workshop with a destination, a resource goal or a new building idea.",
+    "Share the plan with your crew if you are playing multiplayer. The next expedition should benefit from what you learned.",
+    "Manual checklist: complete the activity above, then tick this task yourself. This quest does not automatically inspect your build."
+  ],
+  "quest.2129C45D443C8440.title": "Optional Kit: A Compass of Your Own",
+  "quest.2129C45D443C8440.quest_subtitle": "Inventory milestone — items are not consumed",
+  "quest.2129C45D443C8440.quest_desc": [
+    "Compare what an ordinary compass points toward with the custom home waypoint you marked. A compass alone is not automatically a pointer to your current workshop.",
+    "Inventory objective: have one of this item in your inventory after this quest becomes available. It is not consumed. This proves possession only; use the associated manual study to check a working installation."
+  ]
+}

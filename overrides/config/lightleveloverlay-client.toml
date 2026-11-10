@@ -1,0 +1,34 @@
+#Radius (in Bloecken) um den Spieler, in dem Spawn-Punkte gesucht und angezeigt werden.
+# Default: 16
+# Range: 1 ~ 64
+displayRadius = 16
+#Vertikaler Suchradius in Bloecken. 0 = wie displayRadius.
+# Default: 0
+# Range: 0 ~ 64
+verticalRadius = 0
+#Welche Markierungen gezeigt werden: ALL (rot + gelb), NOW_ONLY (nur rot), LATER_ONLY (nur gelb).
+#Allowed Values: ALL, NOW_ONLY, LATER_ONLY
+overlayMode = "ALL"
+#Form der Markierung: CROSS, SQUARE oder CROSS_AND_SQUARE.
+#Allowed Values: CROSS, SQUARE, CROSS_AND_SQUARE
+markerStyle = "CROSS"
+#Linienstaerke der Markierungen.
+# Default: 2.0
+# Range: 1.0 ~ 8.0
+lineWidth = 2.0
+#Deckkraft der Linien in Prozent.
+# Default: 90
+# Range: 10 ~ 100
+lineOpacity = 90
+#Farbe der roten Markierungen (Monster koennen jetzt spawnen) als #RRGGBB.
+redColor = "#FF2626"
+#Farbe der gelben Markierungen (Monster koennen nachts spawnen) als #RRGGBB.
+yellowColor = "#FFE61A"
+#Mindestabstand (in Ticks) zwischen zwei Scans. Hoeher = weniger Last.
+# Default: 5
+# Range: 1 ~ 100
+rescanIntervalTicks = 5
+#Maximale Anzahl Markierungen pro Farbe.
+# Default: 4096
+# Range: 64 ~ 16384
+maxMarkersPerColor = 4096

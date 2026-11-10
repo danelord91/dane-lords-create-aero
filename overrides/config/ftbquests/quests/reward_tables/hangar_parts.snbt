@@ -1,0 +1,61 @@
+{
+	id: "47C05428DC538B94"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			count: 4
+			id: "3EFA85159C8A0AB9"
+			item: {
+				count: 1
+				id: "create:shaft"
+			}
+			weight: 6.0f
+		}
+		{
+			count: 2
+			id: "3F2487480F49704B"
+			item: {
+				count: 1
+				id: "create:cogwheel"
+			}
+			weight: 5.0f
+		}
+		{
+			count: 2
+			id: "611988A070ADF063"
+			item: {
+				count: 1
+				id: "create:fluid_pipe"
+			}
+			weight: 3.0f
+		}
+		{
+			count: 2
+			id: "7393C0391DEB7FC2"
+			item: {
+				count: 1
+				id: "create:andesite_alloy"
+			}
+			weight: 3.0f
+		}
+		{
+			count: 2
+			id: "3D983A8C6162985E"
+			item: {
+				count: 1
+				id: "create:metal_girder"
+			}
+			weight: 2.0f
+		}
+		{
+			count: 2
+			id: "186F296A0C1F52BE"
+			item: {
+				count: 1
+				id: "create:andesite_casing"
+			}
+		}
+	]
+	use_title: true
+}

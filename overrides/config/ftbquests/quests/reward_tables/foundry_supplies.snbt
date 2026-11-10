@@ -1,0 +1,54 @@
+{
+	id: "277A2A54EDA382C0"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{
+			count: 3
+			id: "5B2F72C8264DEB52"
+			item: {
+				count: 1
+				id: "minecraft:iron_ingot"
+			}
+			weight: 5.0f
+		}
+		{
+			count: 6
+			id: "41A3F8DB3064D356"
+			item: {
+				count: 1
+				id: "minecraft:copper_ingot"
+			}
+			weight: 6.0f
+		}
+		{
+			count: 3
+			id: "7AC823D8C9271A2C"
+			item: {
+				count: 1
+				id: "create:zinc_ingot"
+			}
+			weight: 4.0f
+		}
+		{ id: "543A11C4C4B63047", item: { count: 1, id: "minecraft:gold_ingot" } }
+		{
+			count: 12
+			id: "15AFD21C7ADB0A4C"
+			item: {
+				count: 1
+				id: "minecraft:andesite"
+			}
+			weight: 4.0f
+		}
+		{
+			count: 4
+			id: "3057155E7E559930"
+			item: {
+				count: 1
+				id: "minecraft:coal"
+			}
+			weight: 4.0f
+		}
+	]
+	use_title: true
+}

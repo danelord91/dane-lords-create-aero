@@ -1,0 +1,34 @@
+{
+	id: "3176C64B312FA351"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{
+			id: "3C1C8B463E8738AB"
+			type: "xp"
+			weight: 6.0f
+			xp: 25
+		}
+		{
+			id: "3F8497A94B2D795F"
+			type: "xp"
+			weight: 3.0f
+			xp: 60
+		}
+		{
+			id: "5CBCD8B1CC1D1B45"
+			type: "xp"
+			xp: 100
+		}
+		{
+			count: 3
+			id: "0032C8D7905BF719"
+			item: {
+				count: 1
+				id: "create:experience_nugget"
+			}
+			weight: 2.0f
+		}
+	]
+	use_title: true
+}

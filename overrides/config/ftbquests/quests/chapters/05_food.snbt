@@ -1,0 +1,338 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "05_food"
+	group: "0A670F3102D204D1"
+	icon: {
+		id: "farmersdelight:cutting_board"
+	}
+	id: "45DDDFDF06B434F7"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7A4E729DD8C21030"]
+			icon: {
+				id: "minecraft:wheat"
+			}
+			id: "47A05DD71B361290"
+			rewards: [{
+				id: "7E55FC5A37DBF827"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "2AE3721C7719F72E"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["47A05DD71B361290"]
+			icon: {
+				id: "farmersdelight:cutting_board"
+			}
+			id: "66D0A3B744E140DD"
+			rewards: [
+				{
+					id: "6D70E0D9325ACF4B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4CCDCFBEB04D7753"
+					table_id: 2844632658890425024L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				consume_items: false
+				id: "455113BB49D9D5F0"
+				item: { count: 1, id: "farmersdelight:cutting_board" }
+				type: "item"
+			}]
+			x: 2.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["66D0A3B744E140DD"]
+			icon: {
+				id: "farmersdelight:fried_rice"
+			}
+			id: "55C3CEE2B64C4E11"
+			rewards: [
+				{
+					id: "161E413F9FECCB48"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0A3974DFC8DCAB46"
+					table_id: 2844632658890425024L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				consume_items: false
+				id: "01D109F437D873CE"
+				item: { count: 1, id: "farmersdelight:fried_rice" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["55C3CEE2B64C4E11"]
+			icon: {
+				id: "create:mechanical_harvester"
+			}
+			id: "0F63DF235971A997"
+			rewards: [
+				{
+					id: "07CAFA7D16D39727"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1EB7EA0B0D6CE02B"
+					table_id: 2844632658890425024L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				consume_items: false
+				id: "5EF02C3781CD28C7"
+				item: { count: 1, id: "create:mechanical_harvester" }
+				type: "item"
+			}]
+			x: 8.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0F63DF235971A997"]
+			icon: {
+				id: "create:portable_storage_interface"
+			}
+			id: "56FD0443D175C90D"
+			rewards: [{
+				id: "5926F2F35FE8A0EB"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "74C0239EC98BA083"
+				type: "checkmark"
+			}]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["56FD0443D175C90D"]
+			icon: {
+				id: "minecraft:bread"
+			}
+			id: "057D3F75A57703E1"
+			rewards: [{
+				id: "2F784772B76479AB"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "411B31B1AF3D65EF"
+				type: "checkmark"
+			}]
+			x: 13.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["057D3F75A57703E1"]
+			icon: {
+				id: "create:mechanical_mixer"
+			}
+			id: "48657D409F67F34C"
+			rewards: [{
+				id: "04E018F5BD686AE5"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "382D0681CD555355"
+				type: "checkmark"
+			}]
+			x: 16.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["48657D409F67F34C"]
+			icon: {
+				id: "minecraft:bread"
+			}
+			id: "13E99D0288ADF4F8"
+			rewards: [
+				{
+					id: "26A635855E5B667D"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 8
+					id: "1D0D31E04274C4A7"
+					item: {
+						count: 1
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+				{
+					id: "15233FEF509575E1"
+					table_id: 3564254181360378705L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "4C0E8AD1C1488229"
+				type: "checkmark"
+			}]
+			x: 19.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["66D0A3B744E140DD"]
+			icon: {
+				id: "farmersdelight:bacon_sandwich"
+			}
+			id: "2C1754B5F841E8F2"
+			optional: true
+			rewards: [
+				{
+					id: "3D92D454EAB45ECB"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7899B6F0D63D194B"
+					table_id: 2844632658890425024L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				consume_items: false
+				id: "59DECF4403629EF4"
+				item: { count: 1, id: "farmersdelight:bacon_sandwich" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["66D0A3B744E140DD"]
+			icon: {
+				id: "farmersdelight:bamboo_basket"
+			}
+			id: "42E66EEF403D5B0A"
+			optional: true
+			rewards: [
+				{
+					id: "3D464A08188D994E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "64ED5F436D597143"
+					table_id: 2844632658890425024L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				consume_items: false
+				id: "2498898D85D6FFF6"
+				item: { count: 1, id: "farmersdelight:bamboo_basket" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0F63DF235971A997"]
+			icon: {
+				id: "create:mechanical_plough"
+			}
+			id: "4ADAC2F99DE746E2"
+			optional: true
+			rewards: [
+				{
+					id: "0BE317527890488D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3E5D0253B27D16FA"
+					table_id: 2844632658890425024L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				consume_items: false
+				id: "708F9B39F3CECA8C"
+				item: { count: 1, id: "create:mechanical_plough" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0F63DF235971A997"]
+			icon: {
+				id: "create:portable_storage_interface"
+			}
+			id: "1871D2D5513E55E0"
+			optional: true
+			rewards: [
+				{
+					id: "3EDD14E4BD504AC5"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "67FD6F74D1BEA426"
+					table_id: 2844632658890425024L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				consume_items: false
+				id: "4E5275CEF33B805C"
+				item: { count: 1, id: "create:portable_storage_interface" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: -3.0d
+		}
+	]
+}

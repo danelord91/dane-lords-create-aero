@@ -1,0 +1,143 @@
+[general]
+	#Forward acceleration of the kart (not in under-rev mode). Full speed is reached in
+	#2.875 / accelerationFactor seconds: 0.425 = about 6.8 s (default), 0.275 = 10.5 s, 0.25 = 11.5 s.
+	#Max speed, boost and drift are not affected. Existing worlds keep the value already written here.
+	# Default: 0.425
+	# Range: 0.01 ~ 2.0
+	accelerationFactor = 0.425
+	#Speed change for everything else: braking with the backward key, reversing, slowing back
+	#to normal speed after a boost, and the under-rev mode (doubled there).
+	#Default 0.275 = the 2.5.0 behaviour before acceleration and braking were separated.
+	# Default: 0.275
+	# Range: 0.01 ~ 2.0
+	brakingFactor = 0.275
+	#Turning speed (degrees per tick) when steering normally.
+	# Default: 3.75
+	# Range: 0.0 ~ 30.0
+	rotationStrength = 3.75
+	#Turning speed (degrees per tick) while drifting.
+	#Keep it above rotationStrength for a consistent drift.
+	# Default: 5.175
+	# Range: 0.0 ~ 30.0
+	driftRotationStrength = 5.175
+	#Height (in blocks) the kart can climb without jumping.
+	# Default: 1.0
+	# Range: 0.0 ~ 2.0
+	maxUpStep = 1.0
+	#Knockback between two karts, as a fraction of the original kart-to-kart knockback
+	#(1.0 = original, 0.5 = half). Knockback and damage against mobs and players are not affected.
+	# Default: 0.5
+	# Range: 0.0 ~ 1.0
+	kartCollisionKnockbackFactor = 0.5
+	#3.1: speed lost per tick when no accelerator key is held (max forward speed is 1.15):
+	#0.03 = about 1.9 s to stop from full speed (3.0: 0.04, 1.4 s). Multiplied by 4 in under-rev mode.
+	# Default: 0.03
+	# Range: 0.005 ~ 0.2
+	coastDeceleration = 0.03
+	#3.1: speed lost per tick when braking with the key opposite to the direction of travel:
+	#0.08 = about 0.7 s to stop from full speed. Braking is never weaker than releasing the accelerator.
+	# Default: 0.08
+	# Range: 0.005 ~ 0.5
+	brakeDeceleration = 0.08
+	#3.1: the kart can steer without holding an accelerator key, as long as it is still moving.
+	steerWhileCoasting = true
+
+[drift]
+	#Minimum speed to start a drift (max forward speed is 1.15).
+	# Default: 0.85
+	# Range: 0.0 ~ 1.15
+	driftMinSpeed = 0.85
+	#Drift time (ticks, 20 = 1 second) needed to reach charge level 1, 2 and 3.
+	#Releasing the drift key at level 1+ gives a boost.
+	# Default: 20
+	# Range: 1 ~ 1200
+	driftLevel1Ticks = 20
+	# Default: 40
+	# Range: 1 ~ 1200
+	driftLevel2Ticks = 40
+	# Default: 60
+	# Range: 1 ~ 1200
+	driftLevel3Ticks = 60
+	#Max speed multiplier during a boost.
+	# Default: 1.3
+	# Range: 1.0 ~ 3.0
+	boostSpeedMultiplier = 1.3
+	#Boost duration (ticks) for drift levels 1, 2 and 3.
+	# Default: 15
+	# Range: 0 ~ 1200
+	boostLevel1Ticks = 15
+	# Default: 30
+	# Range: 0 ~ 1200
+	boostLevel2Ticks = 30
+	# Default: 45
+	# Range: 0 ~ 1200
+	boostLevel3Ticks = 45
+
+[fuel]
+	#Fuel consumed per tick, multiplied by the current speed (1.15 at full speed).
+	#A full tank holds 16000 fuel; one coal gives 500.
+	# Default: 2.0
+	# Range: 0.0 ~ 100.0
+	fuelConsumption = 2.0
+	#Under-rev mode (empty tank): the kart keeps driving slowly instead of stopping.
+	#Max forward speed when the tank is empty, as a fraction of the normal max speed.
+	#Default 0.3043 (= 0.35 / 1.15, the historical behaviour).
+	# Default: 0.30434782608695654
+	# Range: 0.0 ~ 1.0
+	underRevSpeedFactor = 0.30434782608695654
+
+[wheels]
+	#Green wheels (Create's Super Glue): steering multiplier (no glue: 1.0, never changed).
+	# Default: 1.0
+	# Range: 0.0 ~ 3.0
+	gripSteeringMultiplier = 1.0
+	#Green wheels: extra steering at the start of a turn (0.6 = +60% on the first tick),
+	#fading out over gripTurnInTicks ticks of steering to the same side.
+	# Default: 0.6
+	# Range: 0.0 ~ 3.0
+	gripTurnInBonus = 0.6
+	#Green wheels: duration (ticks) of the turn-in bonus.
+	# Default: 10
+	# Range: 1 ~ 200
+	gripTurnInTicks = 10
+	#Green wheels: speed kept each tick under water (no glue: 0.2). 0.8 = about 4x faster on the bottom.
+	# Default: 0.8
+	# Range: 0.2 ~ 0.95
+	gripWaterSpeedFactor = 0.8
+	#Blue wheels (Super Ice): steering multiplier (not applied while drifting).
+	# Default: 0.8
+	# Range: 0.0 ~ 3.0
+	iceSteeringMultiplier = 0.8
+	#Blue wheels: grip, the share of the wanted velocity reached each tick (1.0 = no sliding).
+	#0.12 slides like ice. Not applied under water.
+	# Default: 0.12
+	# Range: 0.02 ~ 1.0
+	iceGrip = 0.12
+	#Blue wheels: drift rotation multiplier (1.0 = normal drift).
+	# Default: 1.0
+	# Range: 0.0 ~ 3.0
+	iceDriftRotationMultiplier = 1.0
+	#Green wheels: multiplier of the slowdown when the accelerator is released (1.0 = like without glue).
+	# Default: 1.5
+	# Range: 1.0 ~ 4.0
+	gripDecelerationFactor = 1.5
+	#Blue wheels: multiplier of the slowdown when the accelerator is released (1.0 = like without glue,
+	#0.25 = four times gentler). Active braking (back key) is not changed.
+	# Default: 0.25
+	# Range: 0.05 ~ 1.0
+	iceDecelerationFactor = 0.25
+	#Blue wheels: with no accelerator held, the left and right keys spin the kart on itself (its glide is
+	#not changed; accelerating again drives towards the new heading). Not while drifting or under water.
+	iceSpinEnabled = true
+	#Blue wheels: spin speed, as a multiplier of the normal steering speed.
+	# Default: 1.0
+	# Range: 0.0 ~ 3.0
+	iceSpinRate = 1.0
+	#Blue wheels: the kart can also spin on the spot when fully stopped.
+	iceSpinWhenStopped = true
+	#Durability used by one application of glue on a kart by hand (Super Glue and Super Ice have 99).
+	# Default: 4
+	# Range: 0 ~ 99
+	glueDurabilityCost = 4
+	#If true, a Glue Applicator picked up or broken keeps its glue; if false, it drops empty.
+	applicatorKeepsGlue = false
