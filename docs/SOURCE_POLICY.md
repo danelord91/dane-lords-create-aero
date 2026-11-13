@@ -1,6 +1,6 @@
 # Source inclusion policy
 
-Baseline: CurseForge 1.3, file 9535196. `baseline.lock.json` records the original export checksum and the non-vendored dependency paths/checksums. The original downloaded ZIP is stored outside Git and is never changed.
+Baseline: CurseForge 1.5, file 9588608. `baseline.lock.json` records the original export checksum and the non-vendored dependency paths/checksums. The original downloaded ZIP is stored outside Git and is never changed.
 
 ## Tracked
 

@@ -4,7 +4,7 @@ Pack-specific configuration, original quests and branding for **Dane Lord’s Cr
 
 - **Minecraft:** 1.21.1
 - **Loader:** NeoForge 21.1.265
-- **Source baseline:** published CurseForge **1.3**, file **9535196**
+- **Source baseline:** published CurseForge **1.5**, file **9588608**
 - **CurseForge:** https://www.curseforge.com/minecraft/modpacks/dl-create-aero
 - **Issues:** https://github.com/danelord91/dane-lords-create-aero/issues
 
@@ -31,13 +31,13 @@ python3 -m unittest -v
 python3 build.py --download
 ```
 
-Or download the pinned 1.3 export yourself and use it locally:
+Or download the pinned 1.5 export yourself and use it locally:
 
 ```sh
-python3 build.py --baseline "/path/to/Dane-Lord-s-Create-Aero-1.3.zip"
+python3 build.py --baseline "/path/to/Dane-Lord-s-Create-Aero-1.5.zip"
 ```
 
-Output: `dist/Create-Aero-1.3-source-build.zip`. The downloaded baseline is checksum-verified and cached locally in ignored `.cache/`. Changing the CurseForge manifest does not automatically update the baseline lock; treat a new baseline as a reviewed source update.
+Output: `dist/Create-Aero-1.5-source-build.zip`. The downloaded baseline is checksum-verified and cached locally in ignored `.cache/`. Changing the CurseForge manifest does not automatically update the baseline lock; treat a new baseline as a reviewed source update.
 
 The initial source build preserves the included release payloads, but **removes selected runtime/history files**. It is therefore not byte-identical to the published ZIP. Its archive ordering and timestamps are deterministic. Original nested quest-art ZIP bytes are retained until its source assets are edited; edited artwork is repackaged automatically.
 
@@ -56,7 +56,7 @@ These projects have their own releases and repositories. Linking them here does 
 - [Encased Enchantments](https://github.com/danelord91/create-aero-encased-enchantments)
 - [Recipes & Tank Compatibility](https://github.com/danelord91/create-aero-recipes-tank-compatibility)
 
-The 1.3 baseline contains the separate predecessor recipe and tank datapacks. This repository preserves that release configuration; it does not automatically replace them with the combined pack or add a pending addon release.
+The 1.5 baseline contains the separate predecessor recipe and tank datapacks. This repository preserves that release configuration; it does not automatically replace them with the combined pack or override the addon file versions selected in the published manifest.
 
 ## Credits and rights
 

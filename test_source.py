@@ -14,21 +14,24 @@ class SourceTests(unittest.TestCase):
     def test_manifest_identity_and_loader(self):
         m = json.loads((ROOT / 'manifest.json').read_text())
         self.assertEqual(m['name'], "Dane Lord's Create Aero")
-        self.assertEqual(m['version'], '1.3')
+        self.assertEqual(m['version'], '1.5')
         self.assertEqual(m['minecraft']['version'], '1.21.1')
         self.assertEqual(m['minecraft']['modLoaders'], [{'id': 'neoforge-21.1.265', 'primary': True}])
+        self.assertEqual(m['minecraft']['recommendedRam'], 8192)
         self.assertEqual(m['overrides'], 'overrides')
 
     def test_manifest_project_file_pairs(self):
         files = json.loads((ROOT / 'manifest.json').read_text())['files']
-        self.assertEqual(len(files), 269)
+        self.assertEqual(len(files), 272)
         pairs = [(m['projectID'], m['fileID']) for m in files]
         self.assertEqual(len(pairs), len(set(pairs)))
         self.assertTrue(all(isinstance(a, int) and a > 0 and isinstance(b, int) and b > 0 for a, b in pairs))
 
     def test_baseline_lock(self):
         lock = json.loads(build.LOCK.read_text())
-        self.assertEqual(lock['baseline']['sha256'], 'a8b75c71b4c7305fe7a6165a246af99ffa28be81760a061fc21382087450d828')
+        self.assertEqual(lock['baseline']['sha256'], 'e9d35b3a29bbebe3e4dda2c57e424650f7cf4ec24377b56cb06f16688ddc7236')
+        self.assertEqual(lock['version'], '1.5')
+        self.assertEqual(lock['baseline']['file_page'], 'https://www.curseforge.com/minecraft/modpacks/dl-create-aero/files/9588608')
         paths = [item['path'] for item in lock['external_files']]
         self.assertEqual(len(paths), len(set(paths)))
         self.assertTrue(all(build.safe_path(n) for n in paths))
