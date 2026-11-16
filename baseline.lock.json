@@ -1,5 +1,5 @@
 {
-  "version": "1.5",
+  "version": "1.6",
   "minecraft": "1.21.1",
   "mod_loader": [
     {
@@ -8,10 +8,10 @@
     }
   ],
   "baseline": {
-    "filename": "Dane-Lord-s-Create-Aero-1.5.zip",
-    "url": "https://edge.forgecdn.net/files/9588/608/Dane-Lord-s-Create-Aero-1.5.zip",
-    "file_page": "https://www.curseforge.com/minecraft/modpacks/dl-create-aero/files/9588608",
-    "sha256": "e9d35b3a29bbebe3e4dda2c57e424650f7cf4ec24377b56cb06f16688ddc7236"
+    "filename": "Dane-Lord-s-Create-Aero-1.6.zip",
+    "url": "https://edge.forgecdn.net/files/9641/885/Dane-Lord-s-Create-Aero-1.6.zip",
+    "file_page": "https://www.curseforge.com/minecraft/modpacks/dl-create-aero/files/9641885",
+    "sha256": "1e72b457a2aa84bf48cbcb76313f31520b1e2f95a0bd46412feec5482892f988"
   },
   "excluded_runtime_file_count": 43,
   "external_files": [
@@ -304,11 +304,6 @@
       "path": "overrides/config/reliable_remover/removal_example.json.disabled",
       "sha256": "16a06a73c5303deb1cfb092b2c211b4741ffad3c5adc3b32865c3c7ca0845a9a",
       "size": 135
-    },
-    {
-      "path": "overrides/resourcepacks/Dane-Lords-Create-Aero-Quest-Art.zip",
-      "sha256": "514dd7e33307393615f28638d13ec895fb5523218f72e7636e44937fe5912aa2",
-      "size": 164011
     },
     {
       "path": "overrides/resourcepacks/NoBushyLeaves.zip",

@@ -76,18 +76,20 @@ def build(baseline, output=None):
                 raise ValueError('External payload mismatch')
             entries[name] = payload
         entries.update(source_entries())
-        art_root = ROOT / 'resourcepack-src' / 'quest-art'
-        art = {}
-        for path in sorted(art_root.rglob('*')):
-            if path.is_symlink():
-                raise ValueError('Source symlinks are not allowed')
-            if path.is_file():
-                art[path.relative_to(art_root).as_posix()] = path.read_bytes()
-        original_art = archive.read(ART_PATH)
-        with zipfile.ZipFile(io.BytesIO(original_art)) as nested:
-            validate_archive(nested)
-            original = {i.filename: nested.read(i.filename) for i in nested.infolist() if not i.is_dir()}
-        entries[ART_PATH] = original_art if art == original else zip_bytes(art)
+        # 1.6 resolves Quest Art through the manifest; do not reinsert an override.
+        if ART_PATH in archive.namelist():
+            art_root = ROOT / 'resourcepack-src' / 'quest-art'
+            art = {}
+            for path in sorted(art_root.rglob('*')):
+                if path.is_symlink():
+                    raise ValueError('Source symlinks are not allowed')
+                if path.is_file():
+                    art[path.relative_to(art_root).as_posix()] = path.read_bytes()
+            original_art = archive.read(ART_PATH)
+            with zipfile.ZipFile(io.BytesIO(original_art)) as nested:
+                validate_archive(nested)
+                original = {i.filename: nested.read(i.filename) for i in nested.infolist() if not i.is_dir()}
+            entries[ART_PATH] = original_art if art == original else zip_bytes(art)
     manifest = json.loads(entries['manifest.json'])
     if manifest.get('overrides') != 'overrides' or manifest.get('manifestType') != 'minecraftModpack':
         raise ValueError('Expected a CurseForge modpack manifest')

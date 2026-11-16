@@ -1,6 +1,6 @@
 # Source inclusion policy
 
-Baseline: CurseForge 1.5, file 9588608. `baseline.lock.json` records the original export checksum and the non-vendored dependency paths/checksums. The original downloaded ZIP is stored outside Git and is never changed.
+Baseline: CurseForge 1.6, file 9641885. `baseline.lock.json` records the original export checksum and the non-vendored dependency paths/checksums. The original downloaded ZIP is stored outside Git and is never changed.
 
 ## Tracked
 
@@ -14,7 +14,7 @@ Baseline: CurseForge 1.5, file 9588608. `baseline.lock.json` records the origina
 ## Resolved from the baseline, not copied into Git
 
 - Third-party shaders and licences, inherited menu assets, bundled compatibility datapacks and resource packs.
-- The quest-art archive itself; its extracted original source is tracked, and the builder retains the original ZIP when unchanged.
+- The quest-art archive is now resolved through the 1.6 manifest, not the baseline overrides or external-file lock. Its extracted original source remains tracked for reference; the builder must not inject a second override ZIP. For older bundled baselines, it retains the original ZIP when unchanged.
 - Other non-source assets recorded in the lock.
 
 No licence is inferred merely because something was included in an existing export. The lock is a provenance/reconstruction mechanism, not a licence grant.

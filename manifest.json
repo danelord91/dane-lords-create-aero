@@ -12,7 +12,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Dane Lord's Create Aero",
-  "version": "1.5",
+  "version": "1.6",
   "author": "",
   "overrides": "overrides",
   "files": [
@@ -132,7 +132,7 @@
     },
     {
       "projectID": 412082,
-      "fileID": 9211734,
+      "fileID": 9632829,
       "required": true,
       "isLocked": false
     },
@@ -354,7 +354,7 @@
     },
     {
       "projectID": 1420447,
-      "fileID": 9570176,
+      "fileID": 9623855,
       "required": true,
       "isLocked": false
     },
@@ -594,7 +594,7 @@
     },
     {
       "projectID": 1294279,
-      "fileID": 8482079,
+      "fileID": 9596696,
       "required": true,
       "isLocked": false
     },
@@ -654,7 +654,7 @@
     },
     {
       "projectID": 448233,
-      "fileID": 9576082,
+      "fileID": 9594031,
       "required": true,
       "isLocked": false
     },
@@ -834,7 +834,7 @@
     },
     {
       "projectID": 618298,
-      "fileID": 9578162,
+      "fileID": 9630244,
       "required": true,
       "isLocked": false
     },
@@ -846,7 +846,7 @@
     },
     {
       "projectID": 351264,
-      "fileID": 8335665,
+      "fileID": 9641139,
       "required": true,
       "isLocked": false
     },
@@ -978,7 +978,7 @@
     },
     {
       "projectID": 1533137,
-      "fileID": 9042070,
+      "fileID": 9601142,
       "required": true,
       "isLocked": false
     },
@@ -1200,13 +1200,19 @@
     },
     {
       "projectID": 580689,
-      "fileID": 6640970,
+      "fileID": 9600289,
       "required": true,
       "isLocked": false
     },
     {
       "projectID": 1457762,
       "fileID": 7596646,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 1023532,
+      "fileID": 9323646,
       "required": true,
       "isLocked": false
     },
@@ -1295,6 +1301,12 @@
       "isLocked": false
     },
     {
+      "projectID": 1795445,
+      "fileID": 9535769,
+      "required": true,
+      "isLocked": false
+    },
+    {
       "projectID": 1173553,
       "fileID": 8159692,
       "required": true,
@@ -1337,6 +1349,12 @@
       "isLocked": false
     },
     {
+      "projectID": 1797108,
+      "fileID": 9548886,
+      "required": true,
+      "isLocked": false
+    },
+    {
       "projectID": 439890,
       "fileID": 9029800,
       "required": true,
@@ -1350,7 +1368,7 @@
     },
     {
       "projectID": 245755,
-      "fileID": 8969751,
+      "fileID": 9626089,
       "required": true,
       "isLocked": false
     },
@@ -1494,7 +1512,13 @@
     },
     {
       "projectID": 419699,
-      "fileID": 8492726,
+      "fileID": 9608861,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 1629968,
+      "fileID": 8575689,
       "required": true,
       "isLocked": false
     },
@@ -1578,7 +1602,7 @@
     },
     {
       "projectID": 342584,
-      "fileID": 9548438,
+      "fileID": 9628280,
       "required": true,
       "isLocked": false
     },

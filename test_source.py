@@ -4,6 +4,8 @@ from pathlib import Path
 import re
 import tomllib
 import unittest
+from unittest import mock
+import tempfile
 import zipfile
 import build
 
@@ -14,7 +16,7 @@ class SourceTests(unittest.TestCase):
     def test_manifest_identity_and_loader(self):
         m = json.loads((ROOT / 'manifest.json').read_text())
         self.assertEqual(m['name'], "Dane Lord's Create Aero")
-        self.assertEqual(m['version'], '1.5')
+        self.assertEqual(m['version'], '1.6')
         self.assertEqual(m['minecraft']['version'], '1.21.1')
         self.assertEqual(m['minecraft']['modLoaders'], [{'id': 'neoforge-21.1.265', 'primary': True}])
         self.assertEqual(m['minecraft']['recommendedRam'], 8192)
@@ -22,16 +24,16 @@ class SourceTests(unittest.TestCase):
 
     def test_manifest_project_file_pairs(self):
         files = json.loads((ROOT / 'manifest.json').read_text())['files']
-        self.assertEqual(len(files), 272)
+        self.assertEqual(len(files), 276)
         pairs = [(m['projectID'], m['fileID']) for m in files]
         self.assertEqual(len(pairs), len(set(pairs)))
         self.assertTrue(all(isinstance(a, int) and a > 0 and isinstance(b, int) and b > 0 for a, b in pairs))
 
     def test_baseline_lock(self):
         lock = json.loads(build.LOCK.read_text())
-        self.assertEqual(lock['baseline']['sha256'], 'e9d35b3a29bbebe3e4dda2c57e424650f7cf4ec24377b56cb06f16688ddc7236')
-        self.assertEqual(lock['version'], '1.5')
-        self.assertEqual(lock['baseline']['file_page'], 'https://www.curseforge.com/minecraft/modpacks/dl-create-aero/files/9588608')
+        self.assertEqual(lock['baseline']['sha256'], '1e72b457a2aa84bf48cbcb76313f31520b1e2f95a0bd46412feec5482892f988')
+        self.assertEqual(lock['version'], '1.6')
+        self.assertEqual(lock['baseline']['file_page'], 'https://www.curseforge.com/minecraft/modpacks/dl-create-aero/files/9641885')
         paths = [item['path'] for item in lock['external_files']]
         self.assertEqual(len(paths), len(set(paths)))
         self.assertTrue(all(build.safe_path(n) for n in paths))
@@ -97,6 +99,33 @@ class SourceTests(unittest.TestCase):
         with zipfile.ZipFile(io.BytesIO(a)) as archive:
             self.assertEqual(archive.namelist(), ['a', 'z'])
             self.assertIsNone(archive.testzip())
+
+    def test_quest_art_bundle_presence_follows_baseline(self):
+        import hashlib
+        for bundled in (False, True):
+            with self.subTest(bundled=bundled), tempfile.TemporaryDirectory() as temporary:
+                root = Path(temporary)
+                manifest = {'manifestType': 'minecraftModpack', 'overrides': 'overrides', 'version': 'fixture'}
+                (root / 'manifest.json').write_text(json.dumps(manifest))
+                (root / 'modlist.html').write_text('fixture')
+                art_root = root / 'resourcepack-src/quest-art'
+                art_root.mkdir(parents=True)
+                (art_root / 'pack.mcmeta').write_text('{"pack":{"pack_format":34,"description":"fixture"}}')
+                original_art = build.zip_bytes({'pack.mcmeta': (art_root / 'pack.mcmeta').read_bytes()})
+                entries = {'manifest.json': (root / 'manifest.json').read_bytes()}
+                if bundled:
+                    entries[build.ART_PATH] = original_art
+                raw = build.zip_bytes(entries)
+                baseline = root / 'baseline.zip'
+                baseline.write_bytes(raw)
+                lock = root / 'baseline.lock.json'
+                lock.write_text(json.dumps({'baseline': {'sha256': hashlib.sha256(raw).hexdigest()}, 'external_files': []}))
+                with mock.patch.multiple(build, ROOT=root, LOCK=lock):
+                    output = build.build(baseline)
+                with zipfile.ZipFile(output) as archive:
+                    self.assertEqual(build.ART_PATH in archive.namelist(), bundled)
+                    if bundled:
+                        self.assertEqual(archive.read(build.ART_PATH), original_art)
 
 
 if __name__ == '__main__':

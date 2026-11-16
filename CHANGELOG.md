@@ -1,5 +1,27 @@
 # Source snapshot changelog
 
+## 1.6
+
+Updated the source snapshot to the published **Dane Lord’s Create Aero 1.6** export, CurseForge file **9641885**.
+
+### Published changes from 1.5
+
+- Added Create: Frogport Reworked, Create Cobblestone, Recipes & Tank Compatibility, and the standalone Quest Art resource pack.
+- Updated 11 existing project/file selections; the manifest now contains 276 entries, up from 272. No project entries were removed.
+- Removed the bundled Quest Art override ZIP; the resource pack is now selected in the manifest. The builder follows that change without reinserting a duplicate ZIP.
+- Minecraft remains 1.21.1, NeoForge remains 21.1.265, and recommended memory remains 8192 MB.
+- All other override payloads are unchanged from 1.5. The published export still contains the two predecessor recipe/tank datapack ZIPs alongside the new combined-pack manifest entry; this source sync preserves them rather than silently changing gameplay configuration.
+
+### Repository and build
+
+- Updated the baseline lock, exact manifest/mod list, README and source-policy reference.
+- Retained editable Quest Art source as reference, without overriding the manifest-managed pack.
+- Added a regression covering both bundled and manifest-managed Quest Art baselines; all 12 static tests pass.
+- Exercised the documented download/build path. Repeated builds are byte-identical, and all 1,717 retained payloads match the published export. The same 43 identified runtime/history files remain omitted.
+- Previous source tags are preserved. No new Minecraft gameplay or client-visual test was performed for this synchronization.
+
+Baseline ZIP SHA-256: `1e72b457a2aa84bf48cbcb76313f31520b1e2f95a0bd46412feec5482892f988`.
+
 ## 1.5
 
 Updated the source snapshot to the published **Dane Lord’s Create Aero 1.5** export, CurseForge file **9588608**, uploaded November 13, 2026.
